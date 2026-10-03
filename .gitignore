@@ -1,0 +1,18 @@
+# Secrets -- never commit
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Data: large, regenerable, and some of it (audit_log.jsonl,
+# hitl_review_queue.jsonl) is runtime output. How to ship facts.sqlite and
+# chroma_store/ to AWS (S3, baked into the image, or EFS) gets decided at the
+# AWS step -- ignoring it here just keeps the first push small and safe.
+data/

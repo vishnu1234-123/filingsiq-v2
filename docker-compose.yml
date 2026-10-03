@@ -1,0 +1,35 @@
+services:
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    # No persistent volume -- this is a cache (orchestration/cache.py's
+    # own docstring treats a cold cache on restart as normal, expected
+    # behavior, not data loss), so there's nothing here worth persisting
+    # across restarts.
+
+  phoenix:
+    image: arizephoenix/phoenix:latest
+    ports:
+      - "6006:6006"   # UI + OTLP/HTTP
+      - "4317:4317"   # OTLP/gRPC
+
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      # Service names, not localhost -- containers reach each other by
+      # service name on the compose network, not 127.0.0.1 (which inside
+      # the app container refers to itself, not the redis/phoenix
+      # containers). Overrides whatever REDIS_URL/PHOENIX_COLLECTOR_ENDPOINT
+      # might otherwise be set to in .env for local non-Docker use.
+      - REDIS_URL=redis://redis:6379/0
+      - PHOENIX_COLLECTOR_ENDPOINT=http://phoenix:6006
+    volumes:
+      - ./data:/app/data
+    depends_on:
+      - redis
+      - phoenix

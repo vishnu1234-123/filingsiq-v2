@@ -1,0 +1,17 @@
+NARRATIVE_QUESTIONS_V2 = [
+    {"company": "aapl", "filename": "aapl-20250927.htm", "question": "What does Apple say about risks from its reliance on single-source suppliers?"},
+    {"company": "aapl", "filename": "aapl-20250927.htm", "question": "How does Apple describe its approach to environmental sustainability?"},
+    {"company": "jpm", "filename": "jpm-20251231.htm", "question": "What does JPMorgan say about risks from climate-related financial exposure?"},
+    {"company": "xom", "filename": "xom-20251231.htm", "question": "How does ExxonMobil describe its capital allocation priorities?"},
+    {"company": "xom", "filename": "xom-20251231.htm", "question": "What does ExxonMobil say about geopolitical risks affecting its international operations?"},
+    {"company": "pfe", "filename": "pfe-20251231.htm", "question": "How does Pfizer describe its research and development strategy?"},
+    {"company": "wmt", "filename": "wmt-20250131.htm", "question": "How does Walmart describe its approach to store format innovation?"},
+    {"company": "pld", "filename": "pld-20251231.htm", "question": "What does Prologis say about risks from oversupply in industrial real estate markets?"},
+    {"company": "pld", "filename": "pld-20251231.htm", "question": "How does Prologis describe its approach to sustainability in its properties?"},
+    {"company": "cat", "filename": "cat-20251231.htm", "question": "What does Caterpillar say about risks from international trade policy and tariffs?"},
+    {"company": "met", "filename": "met-20251231.htm", "question": "How does MetLife describe its reinsurance strategy?"},
+    {"company": "ms", "filename": "ms-20251231.htm", "question": "What does Morgan Stanley say about risks from market volatility affecting its trading business?"},
+    {"company": "tsla", "filename": "tsla-20251231.htm", "question": "What does Tesla say about risks from reliance on a limited number of manufacturing facilities?"},
+    {"company": "tsla", "filename": "tsla-20251231.htm", "question": "How does Tesla describe its approach to autonomous driving technology development?"},
+    {"company": "pfe", "filename": "pfe-20251231.htm", "question": "What does Pfizer say about risks from government pricing regulations?"},
+]

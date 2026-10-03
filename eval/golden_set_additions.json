@@ -1,0 +1,72 @@
+[
+    {
+      "id": "xom_sql_5b",
+      "company": "xom",
+      "type": "sql_only",
+      "question": "How much long-term debt does ExxonMobil carry, including capital leases?",
+      "answer": 34241000000.0,
+      "reference_context": "us-gaap:LongTermDebtAndCapitalLeaseObligations = 34241000000.0 (2025-12-31)",
+      "verified": true,
+      "note": "Phrasing-variant companion to xom_sql_5 -- same underlying fact, colloquial wording. Added specifically to test SQL routing survives rewording, the exact bug class that started tonight's debugging session (R&D 'spend' vs 'expense')."
+    },
+    {
+      "id": "wmt_sql_9b",
+      "company": "wmt",
+      "type": "sql_only",
+      "question": "How much cash did Walmart's operations generate in fiscal year 2024?",
+      "answer": 35726000000.0,
+      "reference_context": "us-gaap:NetCashProvidedByUsedInOperatingActivities = 35726000000.0 (2024-01-31)",
+      "verified": true,
+      "note": "Phrasing-variant companion to wmt_sql_9."
+    },
+    {
+      "id": "aapl_sql_2b",
+      "company": "aapl",
+      "type": "sql_only",
+      "question": "How many shares of Apple stock are outstanding as of the FY2025 10-K?",
+      "answer": 14773260000.0,
+      "reference_context": "us-gaap:CommonStockSharesOutstanding = 14773260000.0 (2025-09-27)",
+      "verified": true,
+      "note": "Phrasing-variant companion to aapl_sql_2."
+    },
+    {
+      "id": "jpm_sql_3b",
+      "company": "jpm",
+      "type": "sql_only",
+      "question": "How much of JPMorgan's held-to-maturity debt securities will mature within the next year?",
+      "answer": 18302000000.0,
+      "reference_context": "us-gaap:HeldToMaturitySecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue = 18302000000.0 (2025-12-31)",
+      "verified": true,
+      "note": "Phrasing-variant companion to jpm_sql_3."
+    },
+    {
+      "id": "pfe_corpaction_1",
+      "company": "pfe",
+      "type": "vector_only",
+      "question": "How much in annual cost synergies does Pfizer expect from the Metsera acquisition, and by when?",
+      "answer": "Pfizer expects to generate approximately $600 million in annual cost synergies from the Metsera acquisition, to be achieved by the end of 2026.",
+      "reference_context": "In connection with our acquisition of Metsera, we are focusing our efforts on achieving an appropriate cost structure for the combined company. We expect to generate approximately $600 million of annual cost synergies, to be achieved by the end of 2026. The one-time costs to generate these synergies are expected to be approximately $700 million, incurred primarily from 2025 through 2027.",
+      "verified": true,
+      "note": "Reuses the exact figures already cited and verified in pfe_analytical_53. This companion row targets the same fact as a direct extraction question (corporate-action category) rather than the broader analytical-synthesis framing of the original."
+    },
+    {
+      "id": "pfe_nongaap_1",
+      "company": "pfe",
+      "type": "vector_only",
+      "question": "Does Pfizer's filing reconcile its non-GAAP adjusted diluted EPS to the GAAP reported figure, and where?",
+      "answer": "Yes. Pfizer reconciles its non-GAAP Adjusted Diluted EPS to GAAP diluted EPS in a table titled 'Reconciliations of GAAP Reported to Non-GAAP Adjusted Information--Certain Line Items' within Item 7 (MD&A) of its Form 10-K. For FY2025: GAAP diluted EPS was $1.36 vs. Non-GAAP Adjusted diluted EPS of $3.22.",
+      "reference_context": "Reconciliations of GAAP Reported to Non-GAAP Adjusted Information--Certain Line Items... Earnings per common share attributable to Pfizer Inc. common shareholders--diluted... GAAP Reported $1.36 ... Non-GAAP Adjusted $3.22. Similar reconciliations are provided for 2024 ($1.41 GAAP vs. $3.11 Adjusted) and 2023 ($0.37 GAAP vs. $1.84 Adjusted). Pfizer Inc. 2025 Form 10-K, pages 44-45.",
+      "verified": true,
+      "note": "Confirmed by user directly against Pfizer's primary 2025 Form 10-K on 2026-09-20 (not LLM-generated). GAAP diluted EPS $1.36 vs. Non-GAAP Adjusted $3.22 for FY2025, reconciliation table on pages 44-45."
+    },
+    {
+      "id": "aapl_geo_1",
+      "company": "aapl",
+      "type": "vector_only",
+      "question": "Which countries individually accounted for 10% or more of Apple's net sales in FY2025?",
+      "answer": "No individual country accounted for 10% or more of Apple's net sales in FY2025. Apple reports net sales by geographic segment (Americas, Europe, Greater China, Japan, Rest of Asia Pacific), not by individual country, except for Japan, which is broken out separately at $28,703 million -- below the 10% threshold of total net sales ($416,161 million).",
+      "reference_context": "The following table shows net sales by reportable segment for 2025... Americas $178,353M; Europe $111,032M; Greater China $64,377M; Japan $28,703M; Rest of Asia Pacific $33,696M; Total net sales $416,161M.",
+      "verified": true,
+      "note": "Confirmed by user directly against Apple's primary 2025 Form 10-K on 2026-09-20 (not LLM-generated). Question originally assumed country-level disclosure; verified answer correctly reflects that Apple discloses by geographic segment, with Japan the only individually-broken-out country."
+    }
+  ]

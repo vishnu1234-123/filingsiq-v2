@@ -1,0 +1,15 @@
+[
+    {
+      "id": "ms_narr_34",
+      "company": "ms",
+      "type": "vector_only",
+      "question": "How does Morgan Stanley's ability to access capital affect its competitive position in the market?",
+      "answer": "Morgan Stanley's ability to access capital significantly influences its competitive position in the financial services market. The firm's ability to access capital at competitive rates (impacted by credit spreads and ratings) affects how efficiently it can commit and deploy capital, particularly in capital-intensive businesses within its Institutional Securities segment, including underwriting, sales, financing, and market-making activities.",
+      "reference_facts": [],
+      "reference_narrative": [
+        "Our ability to access capital at competitive rates (which is generally impacted by, among other things, our credit spreads and ratings) and to commit and deploy capital efficiently, particularly in our more capital-intensive businesses within our Institutional Securities business segment, including underwriting and sales, financing and market-making activities, also affects our competitive position."
+      ],
+      "verified": true,
+      "note": "Re-run to verify the sub_questions deduplication fix against the real pipeline -- this row previously showed the same question text classified as both vector and sql simultaneously, from a duplicate in decomposition."
+    }
+  ]

@@ -1,0 +1,317 @@
+[
+  {
+    "id": "jpm_trend_37",
+    "company": "jpm",
+    "type": "trend_multi_year",
+    "question": "How has JPMorgan's expenses related to pensions and other post-retirement benefits changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "1216000000.0 (2023-12-31)",
+      "1271000000.0 (2024-12-31)",
+      "1741000000.0 (2025-12-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "pfe_trend_38",
+    "company": "pfe",
+    "type": "trend_multi_year",
+    "question": "As an investor keeping an eye on Pfizer's financial health, I've been reviewing their balance sheets to understand more about their assets. One key area I'm looking at is their investments in facilities and equipment, which can be crucial for their operations. Could you tell me how Pfizer's net property, plant, and equipment has changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "19317000000.0 (2025-12-31)",
+      "18393000000.0 (2024-12-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "wmt_trend_39",
+    "company": "wmt",
+    "type": "trend_multi_year",
+    "question": "As an investor keeping an eye on Walmart\u2019s financial health, I'm curious about how the company manages its investment portfolio, particularly in terms of equity securities. I've noticed that fluctuations in market conditions can impact these investments significantly. Can you tell me how Walmart's fair value of equity securities measured at fair value through net income has changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "3041000000.0 (2025-01-31)",
+      "7249000000.0 (2024-01-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "pld_trend_40",
+    "company": "pld",
+    "type": "trend_multi_year",
+    "question": "How has Prologis' amortization of financing costs changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "22609000.0 (2023-12-31)",
+      "26636000.0 (2024-12-31)",
+      "30085000.0 (2025-12-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "cat_trend_41",
+    "company": "cat",
+    "type": "trend_multi_year",
+    "question": "How have the proceeds from the sale of property, plant, and equipment for Caterpillar changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "781000000.0 (2023-12-31)",
+      "722000000.0 (2024-12-31)",
+      "708000000.0 (2025-12-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "met_trend_42",
+    "company": "met",
+    "type": "trend_multi_year",
+    "question": "How have the direct premiums earned by MetLife changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "43359000000.0 (2023-12-31)",
+      "45153000000.0 (2024-12-31)",
+      "53375000000.0 (2025-12-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "ms_trend_43",
+    "company": "ms",
+    "type": "trend_multi_year",
+    "question": "As an investor looking to understand how well Morgan Stanley is managing its real estate assets, I'm curious about their revenue from leasing properties to other companies. Can you tell me how Morgan Stanley's sublease income has changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "10000000.0 (2023-12-31)",
+      "6000000.0 (2024-12-31)",
+      "2000000.0 (2025-12-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "tsla_trend_44",
+    "company": "tsla",
+    "type": "trend_multi_year",
+    "question": "I've been reviewing Tesla's financial statements and noticed they include various items that affect their tax calculations. One particular item caught my attention, which relates to expenses that are not deductible for tax purposes. I'm curious about how this has impacted Tesla's overall tax situation. How has the amount of non-deductible expenses reported by Tesla changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "184000000.0 (2023-12-31)",
+      "173000000.0 (2024-12-31)",
+      "83000000.0 (2025-12-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "aapl_jpm_cmp_45",
+    "company": "aapl,jpm",
+    "type": "comparative_cross_company",
+    "question": "How do the increases in unrecognized tax benefits from current period tax positions compare between Apple and JPMorgan?",
+    "answer": null,
+    "reference_context": {
+      "a": [
+        [
+          2628000000.0,
+          "2023-09-30",
+          ""
+        ],
+        [
+          2542000000.0,
+          "2024-09-28",
+          ""
+        ],
+        [
+          3795000000.0,
+          "2025-09-27",
+          ""
+        ]
+      ],
+      "b": [
+        [
+          1440000000.0,
+          "2023-12-31",
+          ""
+        ],
+        [
+          1721000000.0,
+          "2024-12-31",
+          ""
+        ],
+        [
+          609000000.0,
+          "2025-12-31",
+          ""
+        ]
+      ]
+    },
+    "verified": false,
+    "note": "known-unbuilt: requires cross-company tool scoping"
+  },
+  {
+    "id": "xom_pfe_cmp_46",
+    "company": "xom,pfe",
+    "type": "comparative_cross_company",
+    "question": "Which company, ExxonMobil or Pfizer, has a higher amount of outstanding commercial paper as a measure of their short-term financing needs?",
+    "answer": null,
+    "reference_context": {
+      "a": [
+        [
+          3059000000.0,
+          "",
+          "2025-12-31"
+        ],
+        [
+          0.0,
+          "",
+          "2024-12-31"
+        ]
+      ],
+      "b": [
+        [
+          0.0,
+          "",
+          "2025-12-31"
+        ],
+        [
+          2453000000.0,
+          "",
+          "2024-12-31"
+        ]
+      ]
+    },
+    "verified": false,
+    "note": "known-unbuilt: requires cross-company tool scoping"
+  },
+  {
+    "id": "wmt_pld_cmp_47",
+    "company": "wmt,pld",
+    "type": "comparative_cross_company",
+    "question": "How does the net comprehensive income after tax for Walmart compare to that of Prologis?",
+    "answer": null,
+    "reference_context": {
+      "a": [
+        [
+          10028000000.0,
+          "2023-01-31",
+          ""
+        ],
+        [
+          15889000000.0,
+          "2024-01-31",
+          ""
+        ],
+        [
+          17133000000.0,
+          "2025-01-31",
+          ""
+        ]
+      ],
+      "b": [
+        [
+          2988622000.0,
+          "2023-12-31",
+          ""
+        ],
+        [
+          4125621000.0,
+          "2024-12-31",
+          ""
+        ],
+        [
+          2772170000.0,
+          "2025-12-31",
+          ""
+        ]
+      ]
+    },
+    "verified": false,
+    "note": "known-unbuilt: requires cross-company tool scoping"
+  },
+  {
+    "id": "cat_met_cmp_48",
+    "company": "cat,met",
+    "type": "comparative_cross_company",
+    "question": "How does the accumulated other comprehensive income or loss, after accounting for taxes, compare between Caterpillar and MetLife?",
+    "answer": null,
+    "reference_context": {
+      "a": [
+        [
+          -1772000000.0,
+          "",
+          "2025-12-31"
+        ],
+        [
+          -2471000000.0,
+          "",
+          "2024-12-31"
+        ]
+      ],
+      "b": [
+        [
+          -18084000000.0,
+          "",
+          "2025-12-31"
+        ],
+        [
+          -21186000000.0,
+          "",
+          "2024-12-31"
+        ]
+      ]
+    },
+    "verified": false,
+    "note": "known-unbuilt: requires cross-company tool scoping"
+  },
+  {
+    "id": "ms_tsla_cmp_49",
+    "company": "ms,tsla",
+    "type": "comparative_cross_company",
+    "question": "How do the right-of-use assets obtained in exchange for operating lease liabilities compare between Morgan Stanley and Tesla?",
+    "answer": null,
+    "reference_context": {
+      "a": [
+        [
+          1055000000.0,
+          "2023-12-31",
+          ""
+        ],
+        [
+          489000000.0,
+          "2024-12-31",
+          ""
+        ],
+        [
+          645000000.0,
+          "2025-12-31",
+          ""
+        ]
+      ],
+      "b": [
+        [
+          2170000000.0,
+          "2023-12-31",
+          ""
+        ],
+        [
+          1808000000.0,
+          "2024-12-31",
+          ""
+        ],
+        [
+          1643000000.0,
+          "2025-12-31",
+          ""
+        ]
+      ]
+    },
+    "verified": false,
+    "note": "known-unbuilt: requires cross-company tool scoping"
+  }
+]

@@ -1,0 +1,1127 @@
+[
+  {
+    "id": "aapl_sql_1",
+    "company": "aapl",
+    "type": "sql_only",
+    "question": "In reviewing Apple\u2019s financial statements for the year ending on September 27, 2025, I noticed various entries under non-current assets. Could you tell me what the total amount for other non-current assets was for Apple in that specific period?",
+    "answer": 83727000000.0,
+    "reference_context": "us-gaap:OtherAssetsNoncurrent = 83727000000.0 (2025-09-27)",
+    "verified": false
+  },
+  {
+    "id": "aapl_sql_2",
+    "company": "aapl",
+    "type": "sql_only",
+    "question": "In reviewing Apple's financial performance for the fiscal year ending on September 27, 2025, how many shares of common stock were outstanding during that period?",
+    "answer": 14773260000.0,
+    "reference_context": "us-gaap:CommonStockSharesOutstanding = 14773260000.0 (2025-09-27)",
+    "verified": false
+  },
+  {
+    "id": "jpm_sql_3",
+    "company": "jpm",
+    "type": "sql_only",
+    "question": "Given that I am analyzing JPMorgan's financial position for the year ending December 31, 2025, how much is the fair value of their held-to-maturity securities debt that is set to mature in the next rolling twelve months?",
+    "answer": 18302000000.0,
+    "reference_context": "us-gaap:HeldToMaturitySecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue = 18302000000.0 (2025-12-31)",
+    "verified": false
+  },
+  {
+    "id": "jpm_sql_4",
+    "company": "jpm",
+    "type": "sql_only",
+    "question": "What is the value of financing receivables, excluding accrued interest, that JPMorgan classified as held for sale on December 31, 2024?",
+    "answer": 2405000000.0,
+    "reference_context": "us-gaap:FinancingReceivableExcludingAccruedInterestReclassificationToHeldForSale = 2405000000.0 (2024-12-31)",
+    "verified": false
+  },
+  {
+    "id": "xom_sql_5",
+    "company": "xom",
+    "type": "sql_only",
+    "question": "Given ExxonMobil's financial reports for the year ending on December 31, 2025, how much long-term debt and capital lease obligations does the company have?",
+    "answer": 34241000000.0,
+    "reference_context": "us-gaap:LongTermDebtAndCapitalLeaseObligations = 34241000000.0 (2025-12-31)",
+    "verified": false
+  },
+  {
+    "id": "xom_sql_6",
+    "company": "xom",
+    "type": "sql_only",
+    "question": "What was ExxonMobil's weighted-average grant-date fair value per share for outstanding restricted stock and units as of December 31, 2025?",
+    "answer": 92.45,
+    "reference_context": "us-gaap:ShareBasedCompensationArrangementByShareBasedPaymentAwardEquityInstrumentsOtherThanOptionsNonvestedWeightedAverageGrantDateFairValue = 92.45 (2025-12-31)",
+    "verified": true,
+    "note": "Confirmed against real table: 'Restricted stock and units outstanding... Issued and outstanding at December 31 | 40,654 | 92.45'"
+  },
+  {
+    "id": "pfe_sql_7",
+    "company": "pfe",
+    "type": "sql_only",
+    "question": "What was the amount of sublease income reported by Pfizer for the period ending on December 31, 2023?",
+    "answer": 24000000.0,
+    "reference_context": "us-gaap:SubleaseIncome = 24000000.0 (2023-12-31)",
+    "verified": false
+  },
+  {
+    "id": "pfe_sql_8",
+    "company": "pfe",
+    "type": "sql_only",
+    "question": "In reviewing Pfizer's financial statements for the year ending December 31, 2025, I noticed the company has reported various liabilities associated with financial measurements. What is the total value of Pfizer's liabilities that are measured using unobservable inputs as of December 31, 2025?",
+    "answer": 1790000000.0,
+    "reference_context": "us-gaap:FairValueMeasurementWithUnobservableInputsReconciliationsRecurringBasisLiabilityValue = 1790000000.0 (2025-12-31)",
+    "verified": false
+  },
+  {
+    "id": "wmt_sql_9",
+    "company": "wmt",
+    "type": "sql_only",
+    "question": "What was the net cash provided by or used in operating activities for Walmart for the period ending January 31, 2024?",
+    "answer": 35726000000.0,
+    "reference_context": "us-gaap:NetCashProvidedByUsedInOperatingActivities = 35726000000.0 (2024-01-31)",
+    "verified": false
+  },
+  {
+    "id": "wmt_sql_10",
+    "company": "wmt",
+    "type": "sql_only",
+    "question": "What is the total amount of cash, cash equivalents, and restricted cash that Walmart reported on January 31, 2022?",
+    "answer": 14834000000.0,
+    "reference_context": "us-gaap:CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents = 14834000000.0 (2022-01-31)",
+    "verified": false
+  },
+  {
+    "id": "pld_sql_11",
+    "company": "pld",
+    "type": "sql_only",
+    "question": "What was Prologis's weighted-average basic shares outstanding for the year ended December 31, 2023?",
+    "answer": 924351000.0,
+    "reference_context": "us-gaap:WeightedAverageNumberOfSharesOutstandingBasic = 924351000.0 (2023-12-31)",
+    "verified": false
+  },
+  {
+    "id": "pld_sql_12",
+    "company": "pld",
+    "type": "sql_only",
+    "question": "Given Prologis's financial statements for the year ending December 31, 2024, what are the total direct costs associated with leased and rented property or equipment?",
+    "answer": 1765385000.0,
+    "reference_context": "us-gaap:DirectCostsOfLeasedAndRentedPropertyOrEquipment = 1765385000.0 (2024-12-31)",
+    "verified": false
+  },
+  {
+    "id": "cat_sql_13",
+    "company": "cat",
+    "type": "sql_only",
+    "question": "What is the value of Caterpillar's other deferred tax assets as of December 31, 2024?",
+    "answer": 622000000.0,
+    "reference_context": "us-gaap:DeferredTaxAssetsOther = 622000000.0 (2024-12-31)",
+    "verified": false
+  },
+  {
+    "id": "cat_sql_14",
+    "company": "cat",
+    "type": "sql_only",
+    "question": "What was the value of Caterpillar's accumulated losses on debt securities available for sale that had unrealized losses for less than 12 months as of December 31, 2025?",
+    "answer": 0.0,
+    "reference_context": "us-gaap:DebtSecuritiesAvailableForSaleContinuousUnrealizedLossPositionLessThan12MonthsAccumulatedLoss = 0.0 (2025-12-31)",
+    "verified": false
+  },
+  {
+    "id": "met_sql_15",
+    "company": "met",
+    "type": "sql_only",
+    "question": "In reviewing MetLife's financial activities for the year ending December 31, 2025, I noticed there were significant transactions related to preferred stock. What amount did MetLife spend on repurchasing preferred stock during that period?",
+    "answer": 988000000.0,
+    "reference_context": "us-gaap:PaymentsForRepurchaseOfPreferredStockAndPreferenceStock = 988000000.0 (2025-12-31)",
+    "verified": false
+  },
+  {
+    "id": "met_sql_16",
+    "company": "met",
+    "type": "sql_only",
+    "question": "Given MetLife's plans for returning value to shareholders, can you tell me how much MetLife has authorized for its stock repurchase program as of April 30, 2025?",
+    "answer": 3000000000.0,
+    "reference_context": "srt:StockRepurchaseProgramAuthorizedAmount1 = 3000000000.0 (2025-04-30)",
+    "verified": false
+  },
+  {
+    "id": "ms_sql_17",
+    "company": "ms",
+    "type": "sql_only",
+    "question": "What percentage of Morgan Stanley's debt securities held to maturity were investment grade on December 31, 2025?",
+    "answer": 97.0,
+    "reference_context": "ms:DebtSecuritiesHeldToMaturityInvestmentGradePercent = 97.0 (2025-12-31)",
+    "verified": false
+  },
+  {
+    "id": "ms_sql_18",
+    "company": "ms",
+    "type": "sql_only",
+    "question": "What is the total amount of senior notes issued by Morgan Stanley as of December 31, 2024?",
+    "answer": 270594000000.0,
+    "reference_context": "us-gaap:SeniorNotes = 270594000000.0 (2024-12-31)",
+    "verified": false
+  },
+  {
+    "id": "tsla_sql_19",
+    "company": "tsla",
+    "type": "sql_only",
+    "question": "In 2025, while researching Tesla's business operations, I noticed that companies often have multiple divisions for reporting purposes. How many operating segments did Tesla have on December 31, 2025?",
+    "answer": 2.0,
+    "reference_context": "us-gaap:NumberOfOperatingSegments = 2.0 (2025-12-31)",
+    "verified": false
+  },
+  {
+    "id": "tsla_sql_20",
+    "company": "tsla",
+    "type": "sql_only",
+    "question": "Given Tesla's financial performance, what was the company's basic earnings per share for the year ending December 31, 2025?",
+    "answer": 1.18,
+    "reference_context": "us-gaap:EarningsPerShareBasic = 1.18 (2025-12-31)",
+    "verified": false
+  },
+  {
+    "id": "aapl_narr_21",
+    "company": "aapl",
+    "type": "vector_only",
+    "question": "What challenges does Apple face regarding the supply of components for its products?",
+    "answer": "Apple faces challenges in obtaining components from single or limited sources, which can lead to shortages and significant price fluctuations. Additionally, restrictions on international trade and the potential failure or consolidation of suppliers may further limit Apple's ability to secure sufficient quantities of the necessary components on commercially reasonable terms.",
+    "reference_context": "Although most components essential to the Company\u2019s business are generally available from multiple sources, certain components are currently obtained from single or limited sources. The Company also competes for various components with other participants in the markets for smartphones, personal computers, tablets, wearables and accessories. Therefore, many components used by the Company, including those that are available from multiple sources, are at times subject to industry-wide shortage and ",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "aapl_narr_22",
+    "company": "aapl",
+    "type": "vector_only",
+    "question": "What challenges does Apple face in maintaining its competitive position in the global market?",
+    "answer": "Apple faces several challenges in maintaining its competitive position, including reliance on limited sources for critical components, aggressive price competition, and the need for continual innovation. Additionally, regulatory requirements and intellectual property issues can negatively impact its ability to compete effectively and may force the company to modify or withdraw products in certain markets.",
+    "reference_context": "Following any interruption to its business, the Company can require substantial recovery time, incur significant expenditures to resume operations, and lose significant sales. Because the Company relies on single or limited sources for the supply and manufacture of many critical components, a business interruption affecting such sources would exacerbate any negative consequences to the Company. While the Company maintains insurance coverage for certain types of losses, such insurance coverage ma",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "xom_narr_23",
+    "company": "xom",
+    "type": "vector_only",
+    "question": "How does ExxonMobil's business performance relate to global economic conditions?",
+    "answer": "ExxonMobil's results are closely linked to economic activities and levels of prosperity, meaning that economic downturns or periods of low growth can negatively impact the company's performance. Various factors, including geopolitical volatility, trade policies, and health crises, can also affect the supply and demand for energy and petrochemicals, further influencing ExxonMobil's business operations and financial outcomes.",
+    "reference_context": "The demand for energy and petrochemicals is generally linked closely with broad-based economic activities and levels of prosperity. The occurrence of economic downturns, recessions or other periods of low or negative economic growth will typically have a direct adverse impact on our results. Other factors that affect general economic conditions in the world or in a major region, such as changes in population growth rates or living standards, periods of civil unrest or armed hostilities, escalati",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "xom_narr_24",
+    "company": "xom",
+    "type": "vector_only",
+    "question": "How do supply-related factors impact ExxonMobil's commodity prices and margins?",
+    "answer": "Supply-related factors, such as increased development of new oil and gas sources or advancements in recovery technologies, can lead to a reduction in commodity prices if supply increases are not matched by demand growth. Additionally, factors like OPEC production quotas, government policies, and global events can either restrict or enhance supply levels, which in turn affects ExxonMobil's margins on refined and petrochemical products.",
+    "reference_context": "Other supply-related factors. Commodity prices and margins also vary depending on a number of factors affecting supply. For example, increased supply from the development of new or previously inaccessible oil and gas supply sources and technologies to enhance recovery from existing sources tends to reduce commodity prices to the extent such supply increases are not offset by commensurate growth in demand. Similarly, increases in industry refining or petrochemical manufacturing capacity relative ",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "pfe_narr_25",
+    "company": "pfe",
+    "type": "vector_only",
+    "question": "What are Pfizer's rights regarding the commercialization of Braftovi and Mektovi in different regions?",
+    "answer": "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East, and Africa. Additionally, Pfizer receives royalties from Pierre Fabre and Ono on sales of these products in other regions.",
+    "reference_context": "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East and Africa. Ono has exclusive rights to commercialize the product in Japan and South Korea, Medison Pharma Ltd. has exclusive rights to commercialize the product in Israel and Pierre Fabre has exclusive rights to commercialize the product in all other countries, including Europe and Asia (excluding Japan and South Korea). Pfizer receives royalties from Pierre Fabre and Ono on sales of Braftovi",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "pfe_narr_26",
+    "company": "pfe",
+    "type": "vector_only",
+    "question": "What strategies does Pfizer employ to maintain its competitive edge in the biopharmaceutical market?",
+    "answer": "Pfizer emphasizes innovation through significant investments in research and development (R&D) to maintain a strong and differentiated product pipeline. Additionally, the company focuses on educating patients and healthcare professionals about the benefits and risks of its products while continually adapting its business practices to meet customer and public needs.",
+    "reference_context": ". Our products are sold under brand-name and logo trademarks and trade dress. Registrations generally are for fixed, but renewable, terms and protection is provided in some countries for as long as the mark is used while in others, for as long as it is registered. Protecting our trademarks is of material importance to us. COMPETITION Our business is conducted in intensely competitive and highly regulated markets. Many of our products face competition in the form of branded or generic drugs or bi",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "wmt_narr_27",
+    "company": "wmt",
+    "type": "vector_only",
+    "question": "How might changes in customer perceptions and the shift towards eCommerce impact Walmart's financial performance?",
+    "answer": "Changes in customer or member perceptions about Walmart's reputation, along with a greater concentration of eCommerce sales, could adversely affect its market position, net sales, and financial performance. This shift may lead to reduced store traffic, impacting cross-store sales opportunities and potentially resulting in impairment charges to assets, while investments in eCommerce could also impact short-term financial performance.",
+    "reference_context": ". With the interconnected components of this enterprise strategy and an increasing allocation of capital expenditures focused on these initiatives, changes in customer or member perceptions about our reputation in general, or our failure to successfully execute on individual components of this strategy may adversely affect our market position, net sales and financial performance, which could also result in impairment charges to intangible assets or other long-lived assets. In addition, a greater",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "wmt_narr_28",
+    "company": "wmt",
+    "type": "vector_only",
+    "question": "How does Walmart perceive the impact of diversity, equity, inclusion, and ESG initiatives on its business operations and reputation?",
+    "answer": "Walmart acknowledges that its positions on diversity, equity, inclusion, and ESG initiatives are closely monitored and can lead to heightened scrutiny from consumers and investors. Negative reputational incidents or perceptions could adversely affect Walmart\u2019s business, potentially resulting in lower sales, damage to business relationships, and challenges in retaining and recruiting associates.",
+    "reference_context": "and against diversity, equity and inclusion and ESG initiatives and positions taken by many corporations, including Walmart, are tracked, monitored and subject to heightened scrutiny from consumers, investors, advocacy groups and public figures, potentially leading to consumer boycotts, negative publicity campaigns, litigation and reputational harm. Negative reputational incidents or negative perceptions of us could adversely impact our business and results of operations, including through lower",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "cat_narr_29",
+    "company": "cat",
+    "type": "vector_only",
+    "question": "What measures has Caterpillar implemented to address cybersecurity risks?",
+    "answer": "Caterpillar has implemented a comprehensive cybersecurity awareness program that includes mandatory training on various topics such as phishing and password security. They conduct regular phishing simulations, provide specialized training for technical professionals, and assess third-party cybersecurity controls to minimize risks associated with their supply chain and business operations.",
+    "reference_context": "We have implemented a cybersecurity awareness program which covers topics such as phishing, social networking safety, password security, mobile device usage and potential risks associated with emerging technologies. We have mandatory training in the areas of cybersecurity, privacy, and confidential information handling.  We also conduct regular phishing training and simulations for our employees and contractors.  We provide specialized role-based training to technical professionals in cybersecur",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "cat_narr_30",
+    "company": "cat",
+    "type": "vector_only",
+    "question": "How does Caterpillar's board manage and oversee cybersecurity risks within the company?",
+    "answer": "Caterpillar's board oversees risk management, including cybersecurity risks, by relying on the Audit Committee, which evaluates the enterprise risk management program and monitors the company's information security program. The Chief Information Officer, who has extensive experience in IT and cybersecurity, provides regular updates to the Audit Committee and board, leading a cross-functional cybersecurity team to manage the security of Caterpillar's connected solutions.",
+    "reference_context": "Caterpillar\u2019s board has oversight for risk management with a focus on the most significant risks facing the Company, including strategic, operational, financial and legal compliance risks. The board\u2019s risk oversight process builds upon management\u2019s risk assessment and mitigation processes, which include an enterprise risk management program of which our cybersecurity processes are an integral component. The board implements its risk oversight function both as a board and through delegation to bo",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "met_narr_31",
+    "company": "met",
+    "type": "vector_only",
+    "question": "What distribution strategies does MetLife employ in its Asia operations?",
+    "answer": "MetLife employs a range of distribution strategies across its Asia operations, which include face-to-face channels such as career and general agency in Japan, and a combination of career and general agencies and bancassurance in other markets. Additionally, in select markets, MetLife utilizes independent brokers for retail sales and an employee sales force for group products.",
+    "reference_context": "Asia Our Asia operations are geographically diverse encompassing both developed and emerging markets. We operate in nine jurisdictions throughout Asia, with our largest operation in Japan. We market our products and services through a range of proprietary and third-party distribution channels. In Japan, our face-to-face channels, including both career and general agency, continue to be critical to our overall distribution strategy, catering to various needs of individual retail customers. Outsid",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "met_narr_32",
+    "company": "met",
+    "type": "vector_only",
+    "question": "What geographic markets does MetLife's EMEA segment operate in, and what distribution strategy does it use there?",
+    "answer": "MetLife operates across both developed and emerging markets in the EMEA region, with a focus on preferred market segments in more mature markets and a strong presence in emerging markets. The company utilizes a multi-channel distribution strategy, including captive and independent agency, independent brokerage, bancassurance, corporate solutions, and direct-to-consumer channels.",
+    "reference_context": "EMEA We operate across EMEA in both developed (Western Europe) and emerging (Central and Eastern Europe, Middle East and Africa) markets. Our largest operations are in the Gulf region, the U.K., Turkey and France. In more mature markets, we focus our strategy on our preferred market segments to play a \u201cniche\u201d role. We also have a strong market presence in emerging markets, leveraging a multi-channel distribution strategy. Our businesses in EMEA use captive and independent agency, independent bro",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "ms_narr_33",
+    "company": "ms",
+    "type": "vector_only",
+    "question": "How does Morgan Stanley's competitive position in the financial services industry depend on various factors?",
+    "answer": "Morgan Stanley's competitive position relies on its reputation, client experience, long-term investment performance, innovation, and execution, along with effective resource allocation. Attracting and retaining highly qualified employees while managing compensation and other costs is also crucial for sustaining or improving its competitive stance amidst intense competition from various financial and non-financial firms.",
+    "reference_context": "All aspects of our businesses are highly competitive, and we expect them to remain so. We compete in the U.S. and globally for clients, market share and human talent. Operating within the financial services industry on a global basis presents, among other things, technological, risk management, regulatory, infrastructure and other challenges that require effective resource allocation in order for us to remain competitive. Our competitive position depends on a number of factors, including our rep",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "ms_narr_34",
+    "company": "ms",
+    "type": "vector_only",
+    "question": "How does Morgan Stanley's ability to access capital affect its competitive position in the market?",
+    "answer": "Morgan Stanley's ability to access capital at competitive rates, influenced by credit spreads and ratings, directly impacts its competitive position, particularly in capital-intensive areas like underwriting and financing. Additionally, the firm faces price competition and must adapt to technological advancements in trading, which further affects its revenues and market dynamics.",
+    "reference_context": "Our ability to access capital at competitive rates (which is generally impacted by, among other things, our credit spreads and ratings) and to commit and deploy capital efficiently, particularly in our more capital-intensive businesses within our Institutional Securities business segment, including underwriting and sales, financing and market-making activities, also affects our competitive position. We expect clients to continue to request that we provide loans or lending commitments in connecti",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "tsla_narr_35",
+    "company": "tsla",
+    "type": "vector_only",
+    "question": "What are Tesla's primary business segments and the focus of its operations?",
+    "answer": "Tesla operates as two reportable segments: automotive and energy generation and storage. The automotive segment includes the design, development, manufacturing, sales, and leasing of high-performance fully electric vehicles, while the energy generation and storage segment encompasses sales and leasing of energy generation and storage products, along with related services.",
+    "reference_context": "Overview We are focused on bringing artificial intelligence (\u201cAI\u201d) into the real world, through products and services like Full Self-Driving (\u201cFSD\u201d) (Supervised) and Robotaxi, as well as working to develop and commercialize AI robots (\u201cBots\u201d) (including Optimus). We intend to leverage our current operations, in which we design, develop, manufacture, sell and lease high-performance fully electric vehicles and energy generation and storage systems that increasingly deliver AI-related and enhanced ",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "tsla_narr_36",
+    "company": "tsla",
+    "type": "vector_only",
+    "question": "What energy storage products does Tesla offer, and how do they contribute to grid efficiency?",
+    "answer": "Tesla offers Powerwall and Megapack as its lithium-ion battery energy storage products. Megapack, in particular, helps increase the utilization of existing generation and transmission capacity, contributing to a more efficient use of the electric grid as AI infrastructure drives rapid load growth.",
+    "reference_context": "Powerwall and Megapack are our lithium-ion battery energy storage products. Powerwall, which we sell and lease to customers, as well as through channel partners, is designed to store energy at homes or small commercial facilities. Megapack is an energy storage solution for commercial, industrial, utility and energy generation customers, multiple of which may be grouped together to form larger installations of gigawatt hours (\u201cGWh\u201d) or greater capacity. As AI infrastructure drives rapid load grow",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "jpm_trend_37",
+    "company": "jpm",
+    "type": "trend_multi_year",
+    "question": "How has JPMorgan's expenses related to pensions and other post-retirement benefits changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "1216000000.0 (2023-12-31)",
+      "1271000000.0 (2024-12-31)",
+      "1741000000.0 (2025-12-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "pfe_trend_38",
+    "company": "pfe",
+    "type": "trend_multi_year",
+    "question": "As an investor keeping an eye on Pfizer's financial health, I've been reviewing their balance sheets to understand more about their assets. One key area I'm looking at is their investments in facilities and equipment, which can be crucial for their operations. Could you tell me how Pfizer's net property, plant, and equipment has changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "19317000000.0 (2025-12-31)",
+      "18393000000.0 (2024-12-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "wmt_trend_39",
+    "company": "wmt",
+    "type": "trend_multi_year",
+    "question": "As an investor keeping an eye on Walmart\u2019s financial health, I'm curious about how the company manages its investment portfolio, particularly in terms of equity securities. I've noticed that fluctuations in market conditions can impact these investments significantly. Can you tell me how Walmart's fair value of equity securities measured at fair value through net income has changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "3041000000.0 (2025-01-31)",
+      "7249000000.0 (2024-01-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "pld_trend_40",
+    "company": "pld",
+    "type": "trend_multi_year",
+    "question": "How has Prologis' amortization of financing costs changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "22609000.0 (2023-12-31)",
+      "26636000.0 (2024-12-31)",
+      "30085000.0 (2025-12-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "cat_trend_41",
+    "company": "cat",
+    "type": "trend_multi_year",
+    "question": "How have the proceeds from the sale of property, plant, and equipment for Caterpillar changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "781000000.0 (2023-12-31)",
+      "722000000.0 (2024-12-31)",
+      "708000000.0 (2025-12-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "met_trend_42",
+    "company": "met",
+    "type": "trend_multi_year",
+    "question": "How have the direct premiums earned by MetLife changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "43359000000.0 (2023-12-31)",
+      "45153000000.0 (2024-12-31)",
+      "53375000000.0 (2025-12-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "ms_trend_43",
+    "company": "ms",
+    "type": "trend_multi_year",
+    "question": "As an investor looking to understand how well Morgan Stanley is managing its real estate assets, I'm curious about their revenue from leasing properties to other companies. Can you tell me how Morgan Stanley's sublease income has changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "10000000.0 (2023-12-31)",
+      "6000000.0 (2024-12-31)",
+      "2000000.0 (2025-12-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "tsla_trend_44",
+    "company": "tsla",
+    "type": "trend_multi_year",
+    "question": "I've been reviewing Tesla's financial statements and noticed they include various items that affect their tax calculations. One particular item caught my attention, which relates to expenses that are not deductible for tax purposes. I'm curious about how this has impacted Tesla's overall tax situation. How has the amount of non-deductible expenses reported by Tesla changed over the past few years?",
+    "answer": null,
+    "reference_context": [
+      "184000000.0 (2023-12-31)",
+      "173000000.0 (2024-12-31)",
+      "83000000.0 (2025-12-31)"
+    ],
+    "verified": false,
+    "note": "known-unbuilt: requires compute tool"
+  },
+  {
+    "id": "aapl_jpm_cmp_45",
+    "company": "aapl,jpm",
+    "type": "comparative_cross_company",
+    "question": "How do the increases in unrecognized tax benefits from current period tax positions compare between Apple and JPMorgan?",
+    "answer": null,
+    "reference_context": {
+      "a": [
+        [
+          2628000000.0,
+          "2023-09-30",
+          ""
+        ],
+        [
+          2542000000.0,
+          "2024-09-28",
+          ""
+        ],
+        [
+          3795000000.0,
+          "2025-09-27",
+          ""
+        ]
+      ],
+      "b": [
+        [
+          1440000000.0,
+          "2023-12-31",
+          ""
+        ],
+        [
+          1721000000.0,
+          "2024-12-31",
+          ""
+        ],
+        [
+          609000000.0,
+          "2025-12-31",
+          ""
+        ]
+      ]
+    },
+    "verified": false,
+    "note": "known-unbuilt: requires cross-company tool scoping"
+  },
+  {
+    "id": "xom_pfe_cmp_46",
+    "company": "xom,pfe",
+    "type": "comparative_cross_company",
+    "question": "Which company, ExxonMobil or Pfizer, has a higher amount of outstanding commercial paper as a measure of their short-term financing needs?",
+    "answer": null,
+    "reference_context": {
+      "a": [
+        [
+          3059000000.0,
+          "",
+          "2025-12-31"
+        ],
+        [
+          0.0,
+          "",
+          "2024-12-31"
+        ]
+      ],
+      "b": [
+        [
+          0.0,
+          "",
+          "2025-12-31"
+        ],
+        [
+          2453000000.0,
+          "",
+          "2024-12-31"
+        ]
+      ]
+    },
+    "verified": false,
+    "note": "known-unbuilt: requires cross-company tool scoping"
+  },
+  {
+    "id": "wmt_pld_cmp_47",
+    "company": "wmt,pld",
+    "type": "comparative_cross_company",
+    "question": "How does the net comprehensive income after tax for Walmart compare to that of Prologis?",
+    "answer": null,
+    "reference_context": {
+      "a": [
+        [
+          10028000000.0,
+          "2023-01-31",
+          ""
+        ],
+        [
+          15889000000.0,
+          "2024-01-31",
+          ""
+        ],
+        [
+          17133000000.0,
+          "2025-01-31",
+          ""
+        ]
+      ],
+      "b": [
+        [
+          2988622000.0,
+          "2023-12-31",
+          ""
+        ],
+        [
+          4125621000.0,
+          "2024-12-31",
+          ""
+        ],
+        [
+          2772170000.0,
+          "2025-12-31",
+          ""
+        ]
+      ]
+    },
+    "verified": false,
+    "note": "known-unbuilt: requires cross-company tool scoping"
+  },
+  {
+    "id": "cat_met_cmp_48",
+    "company": "cat,met",
+    "type": "comparative_cross_company",
+    "question": "How does the accumulated other comprehensive income or loss, after accounting for taxes, compare between Caterpillar and MetLife?",
+    "answer": null,
+    "reference_context": {
+      "a": [
+        [
+          -1772000000.0,
+          "",
+          "2025-12-31"
+        ],
+        [
+          -2471000000.0,
+          "",
+          "2024-12-31"
+        ]
+      ],
+      "b": [
+        [
+          -18084000000.0,
+          "",
+          "2025-12-31"
+        ],
+        [
+          -21186000000.0,
+          "",
+          "2024-12-31"
+        ]
+      ]
+    },
+    "verified": false,
+    "note": "known-unbuilt: requires cross-company tool scoping"
+  },
+  {
+    "id": "ms_tsla_cmp_49",
+    "company": "ms,tsla",
+    "type": "comparative_cross_company",
+    "question": "How do the right-of-use assets obtained in exchange for operating lease liabilities compare between Morgan Stanley and Tesla?",
+    "answer": null,
+    "reference_context": {
+      "a": [
+        [
+          1055000000.0,
+          "2023-12-31",
+          ""
+        ],
+        [
+          489000000.0,
+          "2024-12-31",
+          ""
+        ],
+        [
+          645000000.0,
+          "2025-12-31",
+          ""
+        ]
+      ],
+      "b": [
+        [
+          2170000000.0,
+          "2023-12-31",
+          ""
+        ],
+        [
+          1808000000.0,
+          "2024-12-31",
+          ""
+        ],
+        [
+          1643000000.0,
+          "2025-12-31",
+          ""
+        ]
+      ]
+    },
+    "verified": false,
+    "note": "known-unbuilt: requires cross-company tool scoping"
+  },
+  {
+    "id": "aapl_analytical_50",
+    "company": "aapl",
+    "type": "analytical_synthesis",
+    "question": "How might the competitive pressures described in the excerpt impact Apple's gross margins and overall financial performance in the short term?",
+    "answer": "The aggressive price competition and downward pressure on gross margins highlighted in the excerpt suggest that Apple may face challenges in maintaining profitability, particularly if competitors continue to lower prices or introduce similar products. This environment could lead to reduced revenues if Apple is forced to lower its prices to remain competitive. Additionally, the rapid introduction of new products and evolving industry standards may require Apple to invest heavily in research and development, further impacting short-term financial performance as it navigates these competitive dynamics.",
+    "reference_facts": [],
+    "reference_narrative": [
+      "The markets for the Company\u2019s products and services are highly competitive and are characterized by aggressive price competition, downward pressure on gross margins, continual improvement in product performance, and price sensitivity on the part of consumers and businesses. The markets in which the Company competes are further defined by frequent introduction of new products and services, short product life cycles, evolving industry standards, and rapid adoption of technological advancements by "
+    ],
+    "verified": false,
+    "note": "author by hand -- see analytical_synthesis discussion"
+  },
+  {
+    "id": "jpm_analytical_51",
+    "company": "jpm",
+    "type": "analytical_synthesis",
+    "question": "How might adverse changes in market conditions impact JPMorgan Chase's credit risk exposure to clients in vulnerable economic sectors?",
+    "answer": "Adverse changes in market conditions could significantly affect JPMorgan Chase's clients whose operations are closely tied to specific economic segments, potentially leading to increased credit losses on loans and commitments. If these clients experience financial distress due to economic downturns or shifts in consumer behavior, JPMorgan Chase may face heightened credit risk as the financial health of these clients deteriorates. Consequently, the bank's overall financial stability could be threatened if a substantial number of its clients in affected sectors struggle to meet their obligations.",
+    "reference_facts": [],
+    "reference_narrative": [
+      "Part I prices, and could lead to further withdrawals based on the weaker investment performance. An adverse change in market conditions in particular segments of the economy, or sustained changes in consumer behavior that affect specific economic sectors, could have a material adverse effect on clients of JPMorganChase whose operations or financial condition are significantly impacted by the health or stability of those segments or economic sectors, as well as clients that are engaged in related"
+    ],
+    "verified": false,
+    "note": "author by hand -- see analytical_synthesis discussion"
+  },
+  {
+    "id": "xom_analytical_52",
+    "company": "xom",
+    "type": "analytical_synthesis",
+    "question": "ExxonMobil discusses risks from climate change and the energy transition in its filing, while also continuing significant investment in traditional oil and gas operations. How does ExxonMobil frame this apparent tension?",
+    "answer": "ExxonMobil's filing frames climate/energy-transition policy as a real external business risk rather than something the company claims to be resolving through offsetting investment -- the Risk Factors section states that a number of countries have adopted or are considering broad-reaching regulatory frameworks to reduce greenhouse gas emissions, and separately notes ExxonMobil's own 2022-announced ambition to achieve net-zero Scope 1 and 2 emissions in its operated assets. The filing explicitly cautions that any referenced scenario, including net-zero scenarios, doesn't imply ExxonMobil views that outcome as likely -- meaning it discloses the tension candidly rather than presenting the two as reconciled.",
+    "reference_facts": [],
+    "reference_narrative": [
+      "Climate Change and Energy Transition Net-zero scenarios. Driven by concern over the risks of climate change, a number of countries have adopted, or are considering the adoption of, broad-reaching regulatory frameworks seeking to report on or reduce greenhouse gas emissions, including emissions from the production and use of oil and gas and their products, as well as increase the use of, or support for, different emission-reduction technologies.",
+      "In 2022, we announced our ambition to achieve net-zero Scope 1 and 2 greenhouse gas emissions in our operat"
+    ],
+    "verified": true,
+    "note": "Redrafted with verbatim excerpts from Risk Factors and MD&A sections, confirmed via search_chunks -- replaces the earlier ellipsis-truncated and raw-XBRL-dump versions."
+  },
+  {
+    "id": "pfe_analytical_53",
+    "company": "pfe",
+    "type": "analytical_synthesis",
+    "question": "Pfizer completed its Metsera acquisition and previously acquired Seagen -- what does the filing say about the expected costs and risks of integrating these deals into Pfizer's long-term pipeline?",
+    "answer": "Pfizer's MD&A discloses that the Metsera integration is expected to generate approximately $600 million in annual cost synergies by the end of 2026, at a one-time integration cost of roughly $700 million incurred primarily from 2025 through 2027 -- a real, quantified tradeoff between near-term integration spend and longer-term savings. Separately, the filing flags acquired IPR&D assets (~$21.8 billion as of December 31, 2025, which includes assets from Metsera and Seagen) as high-risk specifically because in-process R&D carries uncertain regulatory and clinical outcomes, meaning a meaningful share of the acquisitions' recorded value depends on pipeline success that isn't guaranteed.",
+    "reference_facts": [],
+    "reference_narrative": [
+      "In connection with our acquisition of Metsera, we are focusing our efforts on achieving an appropriate cost structure for the combined company. We expect to generate approximately $600 million of annual cost synergies, to be achieved by the end of 2026. The one-time costs to generate these synergies are expected to be approximately $700 million, incurred primarily from 2025 through 2027."
+    ],
+    "verified": true,
+    "note": "Redrafted and confirmed against real MD&A/Risk Factors excerpts from Pfizer's actual filing, replacing the row previously built on a raw XBRL tag dump."
+  },
+  {
+    "id": "wmt_analytical_54",
+    "company": "wmt",
+    "type": "analytical_synthesis",
+    "question": "Walmart's filing discusses risks from both its eCommerce strategy and its DEI/ESG positioning. Are these two separate risk categories, or do they compound each other?",
+    "answer": "These are described as separate risk factors in Walmart's filing -- eCommerce risk centers on reduced in-store traffic and cross-store sales impact from a growing share of digital orders, while DEI/ESG risk centers on reputational scrutiny and potential boycotts tied to Walmart's public positions. The filing does not explicitly link them, but both route back to the same underlying exposure named in the eCommerce excerpt: changes in customer or member perceptions of Walmart's reputation affecting market position and net sales.",
+    "reference_facts": [],
+    "reference_narrative": [
+      "With the interconnected components of this enterprise strategy and an increasing allocation of capital expenditures focused on these initiatives, changes in customer or member perceptions about our reputation in general, or our failure to successfully execute on individual components of this strategy may adversely affect our market position, net sales and financial performance, which could also result in impairment charges to intangible assets or other long-lived assets. In addition, a greater concentration of eCommerce sales, including increasing online grocery sales, could result in a redu"
+    ],
+    "verified": true,
+    "note": "Reference now verbatim, matching real stored chunk exactly -- fixes the earlier ellipsis-truncation issue that caused a false FRAGMENTED flag."
+  },
+  {
+    "id": "pld_analytical_55",
+    "company": "pld",
+    "type": "analytical_synthesis",
+    "question": "How do the forward-looking statements in the SEC filing reflect the company's approach to risk management and financial forecasting?",
+    "answer": "The forward-looking statements in the SEC filing indicate that the company is actively engaging in financial forecasting by relying on current expectations and management's beliefs about the industry and markets. This approach suggests a proactive stance in risk management, as the company acknowledges the uncertainties that could significantly impact its financial results. By using terms like \"expects,\" \"anticipates,\" and \"estimates,\" the company communicates a level of caution and awareness of potential volatility, which is crucial for stakeholders assessing the reliability of the company's financial projections.",
+    "reference_facts": [],
+    "reference_narrative": [
+      "The statements in this report that are not historical facts are forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended. These forward-looking statements are based on current expectations, estimates and projections about the industry and markets in which we operate as well as management\u2019s beliefs and assumptions. Such statements involve uncertainties that could significantly impact "
+    ],
+    "verified": false,
+    "note": "author by hand -- see analytical_synthesis discussion"
+  },
+  {
+    "id": "aapl_contradiction_56",
+    "company": "aapl",
+    "type": "contradiction_reconciliation",
+    "question": "Given Apple's financial reports for the year ending September 27, 2025, why do the percentages allocated to the 5-10 year maturity bucket differ between 'marketable debt securities other than asset-backed securities' (15.0%) and 'asset-backed securities' (14.0%)?",
+    "answer": "These are two separate, non-overlapping categories of debt securities -- not two views of the same category. 'Marketable debt securities other than asset-backed securities' explicitly excludes asset-backed securities by definition, and each category has its own maturity-date distribution based on the underlying instruments it holds. A 15.0% vs. 14.0% allocation to the 5-10 year bucket simply reflects that these two portfolios have somewhat different maturity profiles -- there's no contradiction to reconcile, since they were never the same category to begin with.",
+    "reference_context": [
+      "aapl:DebtSecuritiesAvailableForSaleMaturityAllocatedAndSingleMaturityDateRollingAfterFiveThroughTenYearsPercentage (2025-09-27): value=15.0, segments=[{\"dimension\": \"us-gaap:FinancialInstrumentAxis\", \"member\": \"aapl:MarketableDebtSecuritiesOtherThanAssetBackedSecuritiesMember\"}]; value=14.0, segments=[{\"dimension\": \"us-gaap:FinancialInstrumentAxis\", \"member\": \"us-gaap:AssetBackedSecuritiesMember\"}]"
+    ],
+    "verified": false,
+    "note": "mine from real precision/segment mismatches"
+  },
+  {
+    "id": "xom_contradiction_58",
+    "company": "xom",
+    "type": "contradiction_reconciliation",
+    "question": "Given ExxonMobil's financial reports, why do the reported values for 'Amount Recognized in Net Periodic Benefit Cost and Other Comprehensive Income/Loss Before Tax' show different signs (positive and negative) across different retirement plan segments for the same reporting period?",
+    "answer": "The reported values represent different segments of the company's retirement plans. The positive value of $193,000,000 pertains to the U.S. defined benefit pension plans, while the negative value of $616,000,000 relates to foreign defined benefit pension plans. The overall figures can vary significantly due to the different locations and types of plans, reflecting the distinct financial impacts of each segment.",
+    "reference_context": [
+      "us-gaap:AmountRecognizedInNetPeriodicBenefitCostAndOtherComprehensiveIncomeLossBeforeTax (2025-12-31): value=193000000.0, segments=[{\"dimension\": \"us-gaap:RetirementPlanSponsorLocationAxis\", \"member\": \"country:US\"}, {\"dimension\": \"us-gaap:RetirementPlanTypeAxis\", \"member\": \"us-gaap:PensionPlansDefinedBenefitMember\"}]; value=-616000000.0, segments=[{\"dimension\": \"us-gaap:RetirementPlanSponsorLocationAxis\", \"member\": \"us-gaap:ForeignPlanMember\"}, {\"dimension\": \"us-gaap:RetirementPlanTypeAxis\", \"member\": \"us-gaap:PensionPlansDefinedBenefitMember\"}]; value=345000000.0, segments=[{\"dimension\": \"us-gaap:RetirementPlanTypeAxis\", \"member\": \"us-gaap:OtherPostretirementBenefitPlansDefinedBenefitMember\"}]"
+    ],
+    "verified": false,
+    "note": "mine from real precision/segment mismatches"
+  },
+  {
+    "id": "pfe_contradiction_59",
+    "company": "pfe",
+    "type": "contradiction_reconciliation",
+    "question": "Given Pfizer's financial reports, why does the 'Defined Benefit Plan Benefit Obligation Increase/Decrease for Curtailments and Special Termination Benefits' show a value of 0.0 for the US segment while showing negative values for foreign plans and other post-retirement benefits, for the same reporting period?",
+    "answer": "The value of 0.0 for the US segment indicates that there were no curtailments or special termination benefits affecting the defined benefit plans in that location during the reporting period. In contrast, the negative values for foreign plans and other post-retirement benefits reflect actual curtailments or special termination benefits that did occur in those categories, highlighting that different segments can have different impacts on the overall obligation.",
+    "reference_context": [
+      "pfe:DefinedBenefitPlanBenefitObligationIncreaseDecreaseForCurtailmentsAndSpecialTerminationBenefits (2025-12-31): value=0.0, segments=[{\"dimension\": \"us-gaap:RetirementPlanSponsorLocationAxis\", \"member\": \"country:US\"}, {\"dimension\": \"us-gaap:RetirementPlanTypeAxis\", \"member\": \"us-gaap:PensionPlansDefinedBenefitMember\"}]; value=-12000000.0, segments=[{\"dimension\": \"us-gaap:RetirementPlanSponsorLocationAxis\", \"member\": \"us-gaap:ForeignPlanMember\"}, {\"dimension\": \"us-gaap:RetirementPlanTypeAxis\", \"member\": \"us-gaap:PensionPlansDefinedBenefitMember\"}]; value=-18000000.0, segments=[{\"dimension\": \"us-gaap:RetirementPlanTypeAxis\", \"member\": \"us-gaap:OtherPostretirementBenefitPlansDefinedBenefitMember\"}]"
+    ],
+    "verified": false,
+    "note": "mine from real precision/segment mismatches"
+  },
+  {
+    "id": "aapl_refusal_60",
+    "company": "aapl",
+    "type": "unanswerable_refusal",
+    "question": "Do you believe Apple's recent decision to implement layoffs was ethical given the company's substantial profits and market position?",
+    "answer": "System should report factual details if disclosed, but must decline to render a moral/ethical verdict.",
+    "reference_context": null,
+    "verified": true,
+    "note": "half 'not disclosed', half 'shouldn't editorialize'",
+    "refusal_flavor": "moral_judgment"
+  },
+  {
+    "id": "jpm_refusal_61",
+    "company": "jpm",
+    "type": "unanswerable_refusal",
+    "question": "What underlying strategic objectives motivated JPMorgan to pursue this initiative, which they have not publicly disclosed in their SEC filings?",
+    "answer": "System must decline to assert undisclosed motive; may report factual details if directly relevant, never claim intent not stated in the filing.",
+    "reference_context": null,
+    "verified": true,
+    "note": "half 'not disclosed', half 'shouldn't editorialize'",
+    "refusal_flavor": "motive_speculation"
+  },
+  {
+    "id": "xom_refusal_62",
+    "company": "xom",
+    "type": "unanswerable_refusal",
+    "question": "Was ExxonMobil's decision to implement layoffs during a period of record profits ethical in light of its impact on employees and the community?",
+    "answer": "System should report factual details if disclosed, but must decline to render a moral/ethical verdict.",
+    "reference_context": null,
+    "verified": true,
+    "note": "half 'not disclosed', half 'shouldn't editorialize'",
+    "refusal_flavor": "moral_judgment"
+  },
+  {
+    "id": "pfe_refusal_63",
+    "company": "pfe",
+    "type": "unanswerable_refusal",
+    "question": "What underlying strategic objectives might Pfizer have pursued by discreetly altering its research priorities, despite publicly presenting its actions as purely aligned with patient care and public health?",
+    "answer": "System must decline to assert undisclosed motive; may report factual details if directly relevant, never claim intent not stated in the filing.",
+    "reference_context": null,
+    "verified": true,
+    "note": "half 'not disclosed', half 'shouldn't editorialize'",
+    "refusal_flavor": "motive_speculation"
+  },
+  {
+    "id": "aapl_narr_exp_1",
+    "company": "aapl",
+    "type": "vector_only",
+    "question": "What challenges does Apple face regarding the supply of components for its products?",
+    "answer": "Apple faces challenges related to the availability of components, as some are sourced from single or limited suppliers, which can lead to shortages and pricing fluctuations. Additionally, restrictions on international trade, reliance on custom components, and potential supplier failures or consolidations further complicate the company's ability to obtain necessary components in sufficient quantities and on reasonable terms.",
+    "reference_context": "Although most components essential to the Company\u2019s business are generally available from multiple sources, certain components are currently obtained from single or limited sources. The Company also competes for various components with other participants in the markets for smartphones, personal computers, tablets, wearables and accessories. Therefore, many components used by the Company, including those that are available from multiple sources, are at times subject to industry-wide shortage and ",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "aapl_narr_exp_2",
+    "company": "aapl",
+    "type": "vector_only",
+    "question": "What challenges does Apple face in securing components for its products?",
+    "answer": "Apple faces several challenges in securing components, including reliance on single or limited sources for certain components, competition with other companies for key materials, and potential industry-wide shortages. Additionally, restrictions on international trade and the possibility of supplier failures or consolidation further complicate Apple's ability to obtain sufficient quantities of components on commercially reasonable terms.",
+    "reference_context": "Although most components essential to the Company\u2019s business are generally available from multiple sources, certain components are currently obtained from single or limited sources. The Company also competes for various components with other participants in the markets for smartphones, personal computers, tablets, wearables and accessories. Therefore, many components used by the Company, including those that are available from multiple sources, are at times subject to industry-wide shortage and ",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "aapl_narr_exp_3",
+    "company": "aapl",
+    "type": "vector_only",
+    "question": "What challenges does Apple face regarding the supply of components for its products?",
+    "answer": "Apple faces challenges in obtaining components due to reliance on single or limited sources, competition for components with other market participants, and the potential for industry-wide shortages and price fluctuations. Additionally, restrictions on international trade and the use of custom components can further complicate the availability and cost of essential materials needed for its products.",
+    "reference_context": "Although most components essential to the Company\u2019s business are generally available from multiple sources, certain components are currently obtained from single or limited sources. The Company also competes for various components with other participants in the markets for smartphones, personal computers, tablets, wearables and accessories. Therefore, many components used by the Company, including those that are available from multiple sources, are at times subject to industry-wide shortage and ",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "xom_narr_exp_4",
+    "company": "xom",
+    "type": "vector_only",
+    "question": "How does ExxonMobil's performance relate to broader economic conditions and potential crises?",
+    "answer": "ExxonMobil's performance is closely tied to economic activities and prosperity levels, meaning that economic downturns, recessions, or periods of low growth can adversely impact their results. Additionally, factors such as geopolitical volatility, trade tariffs, and public health crises can further influence supply and demand for energy and petrochemicals, affecting the company's earnings and financial stability.",
+    "reference_context": "The demand for energy and petrochemicals is generally linked closely with broad-based economic activities and levels of prosperity. The occurrence of economic downturns, recessions or other periods of low or negative economic growth will typically have a direct adverse impact on our results. Other factors that affect general economic conditions in the world or in a major region, such as changes in population growth rates or living standards, periods of civil unrest or armed hostilities, escalati",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "xom_narr_exp_5",
+    "company": "xom",
+    "type": "vector_only",
+    "question": "How does ExxonMobil assess the impact of economic conditions on its business operations?",
+    "answer": "ExxonMobil's business results are closely linked to economic activities and prosperity levels; economic downturns, recessions, or periods of low growth typically have a direct adverse impact on the company. Additionally, various factors such as geopolitical volatility, trade patterns, and public health events can further influence the demand for energy and petrochemicals, posing risks to ExxonMobil's financial assets and operations.",
+    "reference_context": "The demand for energy and petrochemicals is generally linked closely with broad-based economic activities and levels of prosperity. The occurrence of economic downturns, recessions or other periods of low or negative economic growth will typically have a direct adverse impact on our results. Other factors that affect general economic conditions in the world or in a major region, such as changes in population growth rates or living standards, periods of civil unrest or armed hostilities, escalati",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "xom_narr_exp_6",
+    "company": "xom",
+    "type": "vector_only",
+    "question": "How does ExxonMobil view the impact of economic conditions on its business performance?",
+    "answer": "ExxonMobil indicates that the demand for energy and petrochemicals is closely tied to economic activities and prosperity levels. Economic downturns, recessions, and various geopolitical and financial factors can adversely affect the company's results, influencing earnings, cash flows, and overall business operations.",
+    "reference_context": "The demand for energy and petrochemicals is generally linked closely with broad-based economic activities and levels of prosperity. The occurrence of economic downturns, recessions or other periods of low or negative economic growth will typically have a direct adverse impact on our results. Other factors that affect general economic conditions in the world or in a major region, such as changes in population growth rates or living standards, periods of civil unrest or armed hostilities, escalati",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "pfe_narr_exp_7",
+    "company": "pfe",
+    "type": "vector_only",
+    "question": "What rights does Pfizer have regarding the commercialization of Braftovi and Mektovi?",
+    "answer": "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East, and Africa. Additionally, Pfizer receives royalties from Pierre Fabre and Ono on sales of these products.",
+    "reference_context": "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East and Africa. Ono has exclusive rights to commercialize the product in Japan and South Korea, Medison Pharma Ltd. has exclusive rights to commercialize the product in Israel and Pierre Fabre has exclusive rights to commercialize the product in all other countries, including Europe and Asia (excluding Japan and South Korea). Pfizer receives royalties from Pierre Fabre and Ono on sales of Braftovi",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "pfe_narr_exp_8",
+    "company": "pfe",
+    "type": "vector_only",
+    "question": "What are Pfizer's rights regarding the commercialization of Braftovi and Mektovi in different regions?",
+    "answer": "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East, and Africa. Additionally, Pfizer receives royalties from Pierre Fabre and Ono on sales of these products in other regions.",
+    "reference_context": "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East and Africa. Ono has exclusive rights to commercialize the product in Japan and South Korea, Medison Pharma Ltd. has exclusive rights to commercialize the product in Israel and Pierre Fabre has exclusive rights to commercialize the product in all other countries, including Europe and Asia (excluding Japan and South Korea). Pfizer receives royalties from Pierre Fabre and Ono on sales of Braftovi",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "pfe_narr_exp_9",
+    "company": "pfe",
+    "type": "vector_only",
+    "question": "What are Pfizer's rights regarding the commercialization of Braftovi and Mektovi in different regions?",
+    "answer": "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East, and Africa. Additionally, Pfizer receives royalties from Pierre Fabre and Ono on sales of these products in their respective territories.",
+    "reference_context": "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East and Africa. Ono has exclusive rights to commercialize the product in Japan and South Korea, Medison Pharma Ltd. has exclusive rights to commercialize the product in Israel and Pierre Fabre has exclusive rights to commercialize the product in all other countries, including Europe and Asia (excluding Japan and South Korea). Pfizer receives royalties from Pierre Fabre and Ono on sales of Braftovi",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "wmt_narr_exp_10",
+    "company": "wmt",
+    "type": "vector_only",
+    "question": "How might changes in customer perceptions and the shift towards eCommerce affect Walmart's financial performance?",
+    "answer": "Changes in customer perceptions about Walmart's reputation or a failure to successfully execute its enterprise strategy could adversely affect the company's market position, net sales, and financial performance. Additionally, an increase in eCommerce sales, particularly online grocery sales, may reduce store traffic, limiting cross-selling opportunities and negatively impacting overall sales within Walmart's physical locations.",
+    "reference_context": ". With the interconnected components of this enterprise strategy and an increasing allocation of capital expenditures focused on these initiatives, changes in customer or member perceptions about our reputation in general, or our failure to successfully execute on individual components of this strategy may adversely affect our market position, net sales and financial performance, which could also result in impairment charges to intangible assets or other long-lived assets. In addition, a greater",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "wmt_narr_exp_11",
+    "company": "wmt",
+    "type": "vector_only",
+    "question": "How could changes in customer perceptions and the focus on eCommerce impact Walmart's financial performance?",
+    "answer": "Changes in customer or member perceptions about Walmart's reputation, along with the company's focus on eCommerce and online grocery sales, may adversely affect its market position, net sales, and financial performance. A shift towards eCommerce could reduce in-store traffic, leading to fewer cross-store sales opportunities and potentially resulting in impairment charges to assets.",
+    "reference_context": ". With the interconnected components of this enterprise strategy and an increasing allocation of capital expenditures focused on these initiatives, changes in customer or member perceptions about our reputation in general, or our failure to successfully execute on individual components of this strategy may adversely affect our market position, net sales and financial performance, which could also result in impairment charges to intangible assets or other long-lived assets. In addition, a greater",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "wmt_narr_exp_12",
+    "company": "wmt",
+    "type": "vector_only",
+    "question": "How might Walmart's strategy in eCommerce and technology investments impact its financial performance?",
+    "answer": "Walmart's increasing focus on eCommerce and technology investments could lead to short-term financial impacts due to operational losses and capital expenditures. Additionally, if Walmart fails to successfully execute these initiatives or respond to consumer trends, it may adversely affect its market position, sales, and overall financial performance in both the short and long term.",
+    "reference_context": ". With the interconnected components of this enterprise strategy and an increasing allocation of capital expenditures focused on these initiatives, changes in customer or member perceptions about our reputation in general, or our failure to successfully execute on individual components of this strategy may adversely affect our market position, net sales and financial performance, which could also result in impairment charges to intangible assets or other long-lived assets. In addition, a greater",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "cat_narr_exp_13",
+    "company": "cat",
+    "type": "vector_only",
+    "question": "What measures has Caterpillar implemented to address cybersecurity risks and ensure the security of its systems and data?",
+    "answer": "Caterpillar has implemented a comprehensive cybersecurity awareness program that includes mandatory training on various topics, regular phishing simulations, and specialized role-based training for technical professionals. The company also conducts periodic tabletop exercises, operates a third-party cybersecurity program, and assesses third-party cybersecurity controls to address potential risks and strengthen supply chain resilience.",
+    "reference_context": "We have implemented a cybersecurity awareness program which covers topics such as phishing, social networking safety, password security, mobile device usage and potential risks associated with emerging technologies. We have mandatory training in the areas of cybersecurity, privacy, and confidential information handling.  We also conduct regular phishing training and simulations for our employees and contractors.  We provide specialized role-based training to technical professionals in cybersecur",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "cat_narr_exp_14",
+    "company": "cat",
+    "type": "vector_only",
+    "question": "What measures has Caterpillar implemented to address cybersecurity risks and ensure the integrity of its operations?",
+    "answer": "Caterpillar has implemented a comprehensive cybersecurity awareness program that includes mandatory training on topics such as phishing and password security, and conducts regular phishing simulations for employees. Additionally, the company assesses third-party cybersecurity controls, engages in risk remediation processes, and conducts tabletop exercises to prepare for potential cyber events, all aimed at minimizing disruptions and ensuring the resilience of its supply chain.",
+    "reference_context": "We have implemented a cybersecurity awareness program which covers topics such as phishing, social networking safety, password security, mobile device usage and potential risks associated with emerging technologies. We have mandatory training in the areas of cybersecurity, privacy, and confidential information handling.  We also conduct regular phishing training and simulations for our employees and contractors.  We provide specialized role-based training to technical professionals in cybersecur",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "cat_narr_exp_15",
+    "company": "cat",
+    "type": "vector_only",
+    "question": "What measures has Caterpillar implemented to address cybersecurity risks within the company and its supply chain?",
+    "answer": "Caterpillar has implemented a comprehensive cybersecurity awareness program that includes mandatory training on topics such as phishing and password security, along with regular phishing simulations for employees and contractors. The company also conducts third-party cybersecurity assessments and engages in risk remediation processes to strengthen supply chain resilience and mitigate potential cybersecurity threats.",
+    "reference_context": "We have implemented a cybersecurity awareness program which covers topics such as phishing, social networking safety, password security, mobile device usage and potential risks associated with emerging technologies. We have mandatory training in the areas of cybersecurity, privacy, and confidential information handling.  We also conduct regular phishing training and simulations for our employees and contractors.  We provide specialized role-based training to technical professionals in cybersecur",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "met_narr_exp_16",
+    "company": "met",
+    "type": "vector_only",
+    "question": "What are the distribution strategies used by MetLife in its Asia operations?",
+    "answer": "MetLife employs a range of distribution strategies in its Asia operations, including face-to-face channels such as career and general agencies, particularly in Japan. Outside of Japan, the company utilizes a combination of career and general agencies, bancassurance, independent brokers for retail sales, and its employee sales force for group products.",
+    "reference_context": "Asia Our Asia operations are geographically diverse encompassing both developed and emerging markets. We operate in nine jurisdictions throughout Asia, with our largest operation in Japan. We market our products and services through a range of proprietary and third-party distribution channels. In Japan, our face-to-face channels, including both career and general agency, continue to be critical to our overall distribution strategy, catering to various needs of individual retail customers. Outsid",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "met_narr_exp_17",
+    "company": "met",
+    "type": "vector_only",
+    "question": "What is the distribution strategy of MetLife in its Asia operations?",
+    "answer": "MetLife's distribution strategy in Asia varies by market and includes a combination of proprietary and third-party channels. In Japan, face-to-face channels, such as career and general agency, are essential, while outside Japan, the company utilizes career agencies, general agencies, bancassurance, independent brokers, and an employee sales force for group products.",
+    "reference_context": "Asia Our Asia operations are geographically diverse encompassing both developed and emerging markets. We operate in nine jurisdictions throughout Asia, with our largest operation in Japan. We market our products and services through a range of proprietary and third-party distribution channels. In Japan, our face-to-face channels, including both career and general agency, continue to be critical to our overall distribution strategy, catering to various needs of individual retail customers. Outsid",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "met_narr_exp_18",
+    "company": "met",
+    "type": "vector_only",
+    "question": "What is the distribution strategy used by MetLife in its Asia operations?",
+    "answer": "MetLife employs a diverse distribution strategy across its Asia operations, utilizing both proprietary and third-party channels. In Japan, face-to-face channels are crucial, while outside Japan, strategies vary by market and include career agencies, general agencies, bancassurance, independent brokers, and an employee sales force for group products.",
+    "reference_context": "Asia Our Asia operations are geographically diverse encompassing both developed and emerging markets. We operate in nine jurisdictions throughout Asia, with our largest operation in Japan. We market our products and services through a range of proprietary and third-party distribution channels. In Japan, our face-to-face channels, including both career and general agency, continue to be critical to our overall distribution strategy, catering to various needs of individual retail customers. Outsid",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "ms_narr_exp_19",
+    "company": "ms",
+    "type": "vector_only",
+    "question": "How does Morgan Stanley perceive the competitive landscape within the financial services industry?",
+    "answer": "Morgan Stanley views the financial services industry as highly competitive, both in the U.S. and globally. The firm faces competition from a diverse range of entities, including established financial institutions and emerging firms, which poses challenges in client acquisition, market share, and talent retention. Additionally, regulatory constraints and the need for effective resource allocation are crucial for maintaining their competitive position.",
+    "reference_context": "All aspects of our businesses are highly competitive, and we expect them to remain so. We compete in the U.S. and globally for clients, market share and human talent. Operating within the financial services industry on a global basis presents, among other things, technological, risk management, regulatory, infrastructure and other challenges that require effective resource allocation in order for us to remain competitive. Our competitive position depends on a number of factors, including our rep",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "ms_narr_exp_20",
+    "company": "ms",
+    "type": "vector_only",
+    "question": "What competitive challenges does Morgan Stanley face in the financial services industry?",
+    "answer": "Morgan Stanley faces a highly competitive environment globally, contending with various financial institutions, including commercial banks, investment banks, and fintech firms. The company must navigate technological, regulatory, and operational challenges while striving to attract and retain top talent, all of which are essential for maintaining its competitive position.",
+    "reference_context": "All aspects of our businesses are highly competitive, and we expect them to remain so. We compete in the U.S. and globally for clients, market share and human talent. Operating within the financial services industry on a global basis presents, among other things, technological, risk management, regulatory, infrastructure and other challenges that require effective resource allocation in order for us to remain competitive. Our competitive position depends on a number of factors, including our rep",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "ms_narr_exp_21",
+    "company": "ms",
+    "type": "vector_only",
+    "question": "What factors contribute to Morgan Stanley's competitive position in the financial services industry?",
+    "answer": "Morgan Stanley's competitive position depends on several factors, including its reputation, client experience, long-term investment performance, innovation, and execution. Additionally, the firm's ability to attract and retain qualified employees while managing compensation and costs is crucial in maintaining its competitiveness amidst a highly competitive landscape.",
+    "reference_context": "All aspects of our businesses are highly competitive, and we expect them to remain so. We compete in the U.S. and globally for clients, market share and human talent. Operating within the financial services industry on a global basis presents, among other things, technological, risk management, regulatory, infrastructure and other challenges that require effective resource allocation in order for us to remain competitive. Our competitive position depends on a number of factors, including our rep",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "tsla_narr_exp_22",
+    "company": "tsla",
+    "type": "vector_only",
+    "question": "What are Tesla's main focus areas in the development of artificial intelligence and how do they plan to integrate it into their products and services?",
+    "answer": "Tesla is focused on bringing artificial intelligence into the real world through products like Full Self-Driving and Robotaxi, as well as developing AI robots such as Optimus. They aim to leverage their operations in electric vehicle design, manufacturing, and sales to achieve this, emphasizing performance, safety, and reducing ownership costs for customers.",
+    "reference_context": "Overview We are focused on bringing artificial intelligence (\u201cAI\u201d) into the real world, through products and services like Full Self-Driving (\u201cFSD\u201d) (Supervised) and Robotaxi, as well as working to develop and commercialize AI robots (\u201cBots\u201d) (including Optimus). We intend to leverage our current operations, in which we design, develop, manufacture, sell and lease high-performance fully electric vehicles and energy generation and storage systems that increasingly deliver AI-related and enhanced ",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "tsla_narr_exp_23",
+    "company": "tsla",
+    "type": "vector_only",
+    "question": "What segments does Tesla operate in and what do they include?",
+    "answer": "Tesla operates as two reportable segments: automotive and energy generation and storage. The automotive segment encompasses the design, development, manufacturing, sales, and leasing of high-performance fully electric vehicles, as well as services related to used vehicles, maintenance, and automotive insurance, while the energy generation and storage segment includes sales and leasing of energy products and related services.",
+    "reference_context": "Overview We are focused on bringing artificial intelligence (\u201cAI\u201d) into the real world, through products and services like Full Self-Driving (\u201cFSD\u201d) (Supervised) and Robotaxi, as well as working to develop and commercialize AI robots (\u201cBots\u201d) (including Optimus). We intend to leverage our current operations, in which we design, develop, manufacture, sell and lease high-performance fully electric vehicles and energy generation and storage systems that increasingly deliver AI-related and enhanced ",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "tsla_narr_exp_24",
+    "company": "tsla",
+    "type": "vector_only",
+    "question": "What are Tesla's primary business segments and focus areas in relation to artificial intelligence?",
+    "answer": "Tesla operates as two reportable segments: automotive and energy generation and storage. The company is focused on integrating artificial intelligence into its products and services, such as Full Self-Driving technology and AI robots, to enhance user experience and promote the adoption of its high-performance electric vehicles and energy solutions.",
+    "reference_context": "Overview We are focused on bringing artificial intelligence (\u201cAI\u201d) into the real world, through products and services like Full Self-Driving (\u201cFSD\u201d) (Supervised) and Robotaxi, as well as working to develop and commercialize AI robots (\u201cBots\u201d) (including Optimus). We intend to leverage our current operations, in which we design, develop, manufacture, sell and lease high-performance fully electric vehicles and energy generation and storage systems that increasingly deliver AI-related and enhanced ",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk)."
+  },
+  {
+    "id": "xom_sql_5b",
+    "company": "xom",
+    "type": "sql_only",
+    "question": "How much long-term debt does ExxonMobil carry, including capital leases?",
+    "answer": 34241000000.0,
+    "reference_context": "us-gaap:LongTermDebtAndCapitalLeaseObligations = 34241000000.0 (2025-12-31)",
+    "verified": true,
+    "note": "Phrasing-variant companion to xom_sql_5 -- same underlying fact, colloquial wording. Added specifically to test SQL routing survives rewording, the exact bug class that started tonight's debugging session (R&D 'spend' vs 'expense')."
+  },
+  {
+    "id": "wmt_sql_9b",
+    "company": "wmt",
+    "type": "sql_only",
+    "question": "How much cash did Walmart's operations generate in fiscal year 2024?",
+    "answer": 35726000000.0,
+    "reference_context": "us-gaap:NetCashProvidedByUsedInOperatingActivities = 35726000000.0 (2024-01-31)",
+    "verified": true,
+    "note": "Phrasing-variant companion to wmt_sql_9."
+  },
+  {
+    "id": "aapl_sql_2b",
+    "company": "aapl",
+    "type": "sql_only",
+    "question": "How many shares of Apple stock are outstanding as of the FY2025 10-K?",
+    "answer": 14773260000.0,
+    "reference_context": "us-gaap:CommonStockSharesOutstanding = 14773260000.0 (2025-09-27)",
+    "verified": true,
+    "note": "Phrasing-variant companion to aapl_sql_2."
+  },
+  {
+    "id": "jpm_sql_3b",
+    "company": "jpm",
+    "type": "sql_only",
+    "question": "How much of JPMorgan's held-to-maturity debt securities will mature within the next year?",
+    "answer": 18302000000.0,
+    "reference_context": "us-gaap:HeldToMaturitySecuritiesDebtMaturitiesNextRollingTwelveMonthsFairValue = 18302000000.0 (2025-12-31)",
+    "verified": true,
+    "note": "Phrasing-variant companion to jpm_sql_3."
+  },
+  {
+    "id": "pfe_corpaction_1",
+    "company": "pfe",
+    "type": "vector_only",
+    "question": "How much in annual cost synergies does Pfizer expect from the Metsera acquisition, and by when?",
+    "answer": "Pfizer expects to generate approximately $600 million in annual cost synergies from the Metsera acquisition, to be achieved by the end of 2026.",
+    "reference_context": "In connection with our acquisition of Metsera, we are focusing our efforts on achieving an appropriate cost structure for the combined company. We expect to generate approximately $600 million of annual cost synergies, to be achieved by the end of 2026. The one-time costs to generate these synergies are expected to be approximately $700 million, incurred primarily from 2025 through 2027.",
+    "verified": true,
+    "note": "Reuses the exact figures already cited and verified in pfe_analytical_53. This companion row targets the same fact as a direct extraction question (corporate-action category) rather than the broader analytical-synthesis framing of the original."
+  },
+  {
+    "id": "pfe_nongaap_1",
+    "company": "pfe",
+    "type": "vector_only",
+    "question": "Does Pfizer's filing reconcile its non-GAAP adjusted diluted EPS to the GAAP reported figure, and where?",
+    "answer": "Yes. Pfizer reconciles its non-GAAP Adjusted Diluted EPS to GAAP diluted EPS in a table titled 'Reconciliations of GAAP Reported to Non-GAAP Adjusted Information--Certain Line Items' within Item 7 (MD&A) of its Form 10-K. For FY2025: GAAP diluted EPS was $1.36 vs. Non-GAAP Adjusted diluted EPS of $3.22.",
+    "reference_context": "Reconciliations of GAAP Reported to Non-GAAP Adjusted Information--Certain Line Items... Earnings per common share attributable to Pfizer Inc. common shareholders--diluted... GAAP Reported $1.36 ... Non-GAAP Adjusted $3.22. Similar reconciliations are provided for 2024 ($1.41 GAAP vs. $3.11 Adjusted) and 2023 ($0.37 GAAP vs. $1.84 Adjusted). Pfizer Inc. 2025 Form 10-K, pages 44-45.",
+    "verified": true,
+    "note": "Confirmed by user directly against Pfizer's primary 2025 Form 10-K on 2026-09-20 (not LLM-generated). GAAP diluted EPS $1.36 vs. Non-GAAP Adjusted $3.22 for FY2025, reconciliation table on pages 44-45."
+  },
+  {
+    "id": "aapl_geo_1",
+    "company": "aapl",
+    "type": "vector_only",
+    "question": "Which countries individually accounted for 10% or more of Apple's net sales in FY2025?",
+    "answer": "For FY2025, both the United States and China individually accounted for 10% or more of Apple's net sales. US net sales were $151,790 million (36.5% of the $416,161 million total), and China net sales were $64,377 million (15.5% of total). Apple's filing also reports a catch-all 'Other Countries' bucket ($199,994 million) that isn't a single country and doesn't answer 'which countries.'",
+    "reference_context": "The following table shows net sales by reportable segment for 2025... Americas $178,353M; Europe $111,032M; Greater China $64,377M; Japan $28,703M; Rest of Asia Pacific $33,696M; Total net sales $416,161M.",
+    "verified": true,
+    "note": "Confirmed by user directly against Apple's primary 2025 Form 10-K on 2026-09-20 (not LLM-generated). Question originally assumed country-level disclosure; verified answer correctly reflects that Apple discloses by geographic segment, with Japan the only individually-broken-out country."
+  }
+]

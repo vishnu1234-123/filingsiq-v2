@@ -1,0 +1,222 @@
+[
+  {
+    "id": "aapl_narr_exp_1",
+    "company": "aapl",
+    "type": "vector_only",
+    "question": "What challenges does Apple face regarding the supply of components for its products?",
+    "answer": "Apple faces challenges related to the availability of components, as some are sourced from single or limited suppliers, which can lead to shortages and pricing fluctuations. Additionally, restrictions on international trade, reliance on custom components, and potential supplier failures or consolidations further complicate the company's ability to obtain necessary components in sufficient quantities and on reasonable terms.",
+    "reference_context": "Although most components essential to the Company\u2019s business are generally available from multiple sources, certain components are currently obtained from single or limited sources. The Company also competes for various components with other participants in the markets for smartphones, personal computers, tablets, wearables and accessories. Therefore, many components used by the Company, including those that are available from multiple sources, are at times subject to industry-wide shortage and ",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "aapl_narr_21"
+  },
+  {
+    "id": "aapl_narr_exp_2",
+    "company": "aapl",
+    "type": "vector_only",
+    "question": "What challenges does Apple face in securing components for its products?",
+    "answer": "Apple faces several challenges in securing components, including reliance on single or limited sources for certain components, competition with other companies for key materials, and potential industry-wide shortages. Additionally, restrictions on international trade and the possibility of supplier failures or consolidation further complicate Apple's ability to obtain sufficient quantities of components on commercially reasonable terms.",
+    "reference_context": "Although most components essential to the Company\u2019s business are generally available from multiple sources, certain components are currently obtained from single or limited sources. The Company also competes for various components with other participants in the markets for smartphones, personal computers, tablets, wearables and accessories. Therefore, many components used by the Company, including those that are available from multiple sources, are at times subject to industry-wide shortage and ",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "aapl_narr_21"
+  },
+  {
+    "id": "aapl_narr_exp_3",
+    "company": "aapl",
+    "type": "vector_only",
+    "question": "What challenges does Apple face regarding the supply of components for its products?",
+    "answer": "Apple faces challenges in obtaining components due to reliance on single or limited sources, competition for components with other market participants, and the potential for industry-wide shortages and price fluctuations. Additionally, restrictions on international trade and the use of custom components can further complicate the availability and cost of essential materials needed for its products.",
+    "reference_context": "Although most components essential to the Company\u2019s business are generally available from multiple sources, certain components are currently obtained from single or limited sources. The Company also competes for various components with other participants in the markets for smartphones, personal computers, tablets, wearables and accessories. Therefore, many components used by the Company, including those that are available from multiple sources, are at times subject to industry-wide shortage and ",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "aapl_narr_21"
+  },
+  {
+    "id": "xom_narr_exp_4",
+    "company": "xom",
+    "type": "vector_only",
+    "question": "How does ExxonMobil's performance relate to broader economic conditions and potential crises?",
+    "answer": "ExxonMobil's performance is closely tied to economic activities and prosperity levels, meaning that economic downturns, recessions, or periods of low growth can adversely impact their results. Additionally, factors such as geopolitical volatility, trade tariffs, and public health crises can further influence supply and demand for energy and petrochemicals, affecting the company's earnings and financial stability.",
+    "reference_context": "The demand for energy and petrochemicals is generally linked closely with broad-based economic activities and levels of prosperity. The occurrence of economic downturns, recessions or other periods of low or negative economic growth will typically have a direct adverse impact on our results. Other factors that affect general economic conditions in the world or in a major region, such as changes in population growth rates or living standards, periods of civil unrest or armed hostilities, escalati",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "xom_narr_23"
+  },
+  {
+    "id": "xom_narr_exp_5",
+    "company": "xom",
+    "type": "vector_only",
+    "question": "How does ExxonMobil assess the impact of economic conditions on its business operations?",
+    "answer": "ExxonMobil's business results are closely linked to economic activities and prosperity levels; economic downturns, recessions, or periods of low growth typically have a direct adverse impact on the company. Additionally, various factors such as geopolitical volatility, trade patterns, and public health events can further influence the demand for energy and petrochemicals, posing risks to ExxonMobil's financial assets and operations.",
+    "reference_context": "The demand for energy and petrochemicals is generally linked closely with broad-based economic activities and levels of prosperity. The occurrence of economic downturns, recessions or other periods of low or negative economic growth will typically have a direct adverse impact on our results. Other factors that affect general economic conditions in the world or in a major region, such as changes in population growth rates or living standards, periods of civil unrest or armed hostilities, escalati",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "xom_narr_23"
+  },
+  {
+    "id": "pfe_narr_exp_7",
+    "company": "pfe",
+    "type": "vector_only",
+    "question": "What rights does Pfizer have regarding the commercialization of Braftovi and Mektovi?",
+    "answer": "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East, and Africa. Additionally, Pfizer receives royalties from Pierre Fabre and Ono on sales of these products.",
+    "reference_context": "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East and Africa. Ono has exclusive rights to commercialize the product in Japan and South Korea, Medison Pharma Ltd. has exclusive rights to commercialize the product in Israel and Pierre Fabre has exclusive rights to commercialize the product in all other countries, including Europe and Asia (excluding Japan and South Korea). Pfizer receives royalties from Pierre Fabre and Ono on sales of Braftovi",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "pfe_narr_25"
+  },
+  {
+    "id": "pfe_narr_exp_8",
+    "company": "pfe",
+    "type": "vector_only",
+    "question": "What are Pfizer's rights regarding the commercialization of Braftovi and Mektovi in different regions?",
+    "answer": "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East, and Africa. Additionally, Pfizer receives royalties from Pierre Fabre and Ono on sales of these products in other regions.",
+    "reference_context": "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East and Africa. Ono has exclusive rights to commercialize the product in Japan and South Korea, Medison Pharma Ltd. has exclusive rights to commercialize the product in Israel and Pierre Fabre has exclusive rights to commercialize the product in all other countries, including Europe and Asia (excluding Japan and South Korea). Pfizer receives royalties from Pierre Fabre and Ono on sales of Braftovi",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "pfe_narr_25"
+  },
+  {
+    "id": "pfe_narr_exp_9",
+    "company": "pfe",
+    "type": "vector_only",
+    "question": "What are Pfizer's rights regarding the commercialization of Braftovi and Mektovi in different regions?",
+    "answer": "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East, and Africa. Additionally, Pfizer receives royalties from Pierre Fabre and Ono on sales of these products in their respective territories.",
+    "reference_context": "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East and Africa. Ono has exclusive rights to commercialize the product in Japan and South Korea, Medison Pharma Ltd. has exclusive rights to commercialize the product in Israel and Pierre Fabre has exclusive rights to commercialize the product in all other countries, including Europe and Asia (excluding Japan and South Korea). Pfizer receives royalties from Pierre Fabre and Ono on sales of Braftovi",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "pfe_narr_25"
+  },
+  {
+    "id": "wmt_narr_exp_10",
+    "company": "wmt",
+    "type": "vector_only",
+    "question": "How might changes in customer perceptions and the shift towards eCommerce affect Walmart's financial performance?",
+    "answer": "Changes in customer perceptions about Walmart's reputation or a failure to successfully execute its enterprise strategy could adversely affect the company's market position, net sales, and financial performance. Additionally, an increase in eCommerce sales, particularly online grocery sales, may reduce store traffic, limiting cross-selling opportunities and negatively impacting overall sales within Walmart's physical locations.",
+    "reference_context": ". With the interconnected components of this enterprise strategy and an increasing allocation of capital expenditures focused on these initiatives, changes in customer or member perceptions about our reputation in general, or our failure to successfully execute on individual components of this strategy may adversely affect our market position, net sales and financial performance, which could also result in impairment charges to intangible assets or other long-lived assets. In addition, a greater",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "wmt_narr_27"
+  },
+  {
+    "id": "wmt_narr_exp_11",
+    "company": "wmt",
+    "type": "vector_only",
+    "question": "How could changes in customer perceptions and the focus on eCommerce impact Walmart's financial performance?",
+    "answer": "Changes in customer or member perceptions about Walmart's reputation, along with the company's focus on eCommerce and online grocery sales, may adversely affect its market position, net sales, and financial performance. A shift towards eCommerce could reduce in-store traffic, leading to fewer cross-store sales opportunities and potentially resulting in impairment charges to assets.",
+    "reference_context": ". With the interconnected components of this enterprise strategy and an increasing allocation of capital expenditures focused on these initiatives, changes in customer or member perceptions about our reputation in general, or our failure to successfully execute on individual components of this strategy may adversely affect our market position, net sales and financial performance, which could also result in impairment charges to intangible assets or other long-lived assets. In addition, a greater",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "wmt_narr_27"
+  },
+  {
+    "id": "cat_narr_exp_13",
+    "company": "cat",
+    "type": "vector_only",
+    "question": "What measures has Caterpillar implemented to address cybersecurity risks and ensure the security of its systems and data?",
+    "answer": "Caterpillar has implemented a comprehensive cybersecurity awareness program that includes mandatory training on various topics, regular phishing simulations, and specialized role-based training for technical professionals. The company also conducts periodic tabletop exercises, operates a third-party cybersecurity program, and assesses third-party cybersecurity controls to address potential risks and strengthen supply chain resilience.",
+    "reference_context": "We have implemented a cybersecurity awareness program which covers topics such as phishing, social networking safety, password security, mobile device usage and potential risks associated with emerging technologies. We have mandatory training in the areas of cybersecurity, privacy, and confidential information handling.  We also conduct regular phishing training and simulations for our employees and contractors.  We provide specialized role-based training to technical professionals in cybersecur",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "cat_narr_29"
+  },
+  {
+    "id": "cat_narr_exp_14",
+    "company": "cat",
+    "type": "vector_only",
+    "question": "What measures has Caterpillar implemented to address cybersecurity risks and ensure the integrity of its operations?",
+    "answer": "Caterpillar has implemented a comprehensive cybersecurity awareness program that includes mandatory training on topics such as phishing and password security, and conducts regular phishing simulations for employees. Additionally, the company assesses third-party cybersecurity controls, engages in risk remediation processes, and conducts tabletop exercises to prepare for potential cyber events, all aimed at minimizing disruptions and ensuring the resilience of its supply chain.",
+    "reference_context": "We have implemented a cybersecurity awareness program which covers topics such as phishing, social networking safety, password security, mobile device usage and potential risks associated with emerging technologies. We have mandatory training in the areas of cybersecurity, privacy, and confidential information handling.  We also conduct regular phishing training and simulations for our employees and contractors.  We provide specialized role-based training to technical professionals in cybersecur",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "cat_narr_29"
+  },
+  {
+    "id": "cat_narr_exp_15",
+    "company": "cat",
+    "type": "vector_only",
+    "question": "What measures has Caterpillar implemented to address cybersecurity risks within the company and its supply chain?",
+    "answer": "Caterpillar has implemented a comprehensive cybersecurity awareness program that includes mandatory training on topics such as phishing and password security, along with regular phishing simulations for employees and contractors. The company also conducts third-party cybersecurity assessments and engages in risk remediation processes to strengthen supply chain resilience and mitigate potential cybersecurity threats.",
+    "reference_context": "We have implemented a cybersecurity awareness program which covers topics such as phishing, social networking safety, password security, mobile device usage and potential risks associated with emerging technologies. We have mandatory training in the areas of cybersecurity, privacy, and confidential information handling.  We also conduct regular phishing training and simulations for our employees and contractors.  We provide specialized role-based training to technical professionals in cybersecur",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "cat_narr_29"
+  },
+  {
+    "id": "met_narr_exp_16",
+    "company": "met",
+    "type": "vector_only",
+    "question": "What are the distribution strategies used by MetLife in its Asia operations?",
+    "answer": "MetLife employs a range of distribution strategies in its Asia operations, including face-to-face channels such as career and general agencies, particularly in Japan. Outside of Japan, the company utilizes a combination of career and general agencies, bancassurance, independent brokers for retail sales, and its employee sales force for group products.",
+    "reference_context": "Asia Our Asia operations are geographically diverse encompassing both developed and emerging markets. We operate in nine jurisdictions throughout Asia, with our largest operation in Japan. We market our products and services through a range of proprietary and third-party distribution channels. In Japan, our face-to-face channels, including both career and general agency, continue to be critical to our overall distribution strategy, catering to various needs of individual retail customers. Outsid",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "met_narr_31"
+  },
+  {
+    "id": "met_narr_exp_17",
+    "company": "met",
+    "type": "vector_only",
+    "question": "What is the distribution strategy of MetLife in its Asia operations?",
+    "answer": "MetLife's distribution strategy in Asia varies by market and includes a combination of proprietary and third-party channels. In Japan, face-to-face channels, such as career and general agency, are essential, while outside Japan, the company utilizes career agencies, general agencies, bancassurance, independent brokers, and an employee sales force for group products.",
+    "reference_context": "Asia Our Asia operations are geographically diverse encompassing both developed and emerging markets. We operate in nine jurisdictions throughout Asia, with our largest operation in Japan. We market our products and services through a range of proprietary and third-party distribution channels. In Japan, our face-to-face channels, including both career and general agency, continue to be critical to our overall distribution strategy, catering to various needs of individual retail customers. Outsid",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "met_narr_31"
+  },
+  {
+    "id": "met_narr_exp_18",
+    "company": "met",
+    "type": "vector_only",
+    "question": "What is the distribution strategy used by MetLife in its Asia operations?",
+    "answer": "MetLife employs a diverse distribution strategy across its Asia operations, utilizing both proprietary and third-party channels. In Japan, face-to-face channels are crucial, while outside Japan, strategies vary by market and include career agencies, general agencies, bancassurance, independent brokers, and an employee sales force for group products.",
+    "reference_context": "Asia Our Asia operations are geographically diverse encompassing both developed and emerging markets. We operate in nine jurisdictions throughout Asia, with our largest operation in Japan. We market our products and services through a range of proprietary and third-party distribution channels. In Japan, our face-to-face channels, including both career and general agency, continue to be critical to our overall distribution strategy, catering to various needs of individual retail customers. Outsid",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "met_narr_31"
+  },
+  {
+    "id": "ms_narr_exp_19",
+    "company": "ms",
+    "type": "vector_only",
+    "question": "How does Morgan Stanley perceive the competitive landscape within the financial services industry?",
+    "answer": "Morgan Stanley views the financial services industry as highly competitive, both in the U.S. and globally. The firm faces competition from a diverse range of entities, including established financial institutions and emerging firms, which poses challenges in client acquisition, market share, and talent retention. Additionally, regulatory constraints and the need for effective resource allocation are crucial for maintaining their competitive position.",
+    "reference_context": "All aspects of our businesses are highly competitive, and we expect them to remain so. We compete in the U.S. and globally for clients, market share and human talent. Operating within the financial services industry on a global basis presents, among other things, technological, risk management, regulatory, infrastructure and other challenges that require effective resource allocation in order for us to remain competitive. Our competitive position depends on a number of factors, including our rep",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "ms_narr_33"
+  },
+  {
+    "id": "ms_narr_exp_20",
+    "company": "ms",
+    "type": "vector_only",
+    "question": "What competitive challenges does Morgan Stanley face in the financial services industry?",
+    "answer": "Morgan Stanley faces a highly competitive environment globally, contending with various financial institutions, including commercial banks, investment banks, and fintech firms. The company must navigate technological, regulatory, and operational challenges while striving to attract and retain top talent, all of which are essential for maintaining its competitive position.",
+    "reference_context": "All aspects of our businesses are highly competitive, and we expect them to remain so. We compete in the U.S. and globally for clients, market share and human talent. Operating within the financial services industry on a global basis presents, among other things, technological, risk management, regulatory, infrastructure and other challenges that require effective resource allocation in order for us to remain competitive. Our competitive position depends on a number of factors, including our rep",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "ms_narr_33"
+  },
+  {
+    "id": "ms_narr_exp_21",
+    "company": "ms",
+    "type": "vector_only",
+    "question": "What factors contribute to Morgan Stanley's competitive position in the financial services industry?",
+    "answer": "Morgan Stanley's competitive position depends on several factors, including its reputation, client experience, long-term investment performance, innovation, and execution. Additionally, the firm's ability to attract and retain qualified employees while managing compensation and costs is crucial in maintaining its competitiveness amidst a highly competitive landscape.",
+    "reference_context": "All aspects of our businesses are highly competitive, and we expect them to remain so. We compete in the U.S. and globally for clients, market share and human talent. Operating within the financial services industry on a global basis presents, among other things, technological, risk management, regulatory, infrastructure and other challenges that require effective resource allocation in order for us to remain competitive. Our competitive position depends on a number of factors, including our rep",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "ms_narr_33"
+  },
+  {
+    "id": "tsla_narr_exp_24",
+    "company": "tsla",
+    "type": "vector_only",
+    "question": "What are Tesla's primary business segments and focus areas in relation to artificial intelligence?",
+    "answer": "Tesla operates as two reportable segments: automotive and energy generation and storage. The company is focused on integrating artificial intelligence into its products and services, such as Full Self-Driving technology and AI robots, to enhance user experience and promote the adoption of its high-performance electric vehicles and energy solutions.",
+    "reference_context": "Overview We are focused on bringing artificial intelligence (\u201cAI\u201d) into the real world, through products and services like Full Self-Driving (\u201cFSD\u201d) (Supervised) and Robotaxi, as well as working to develop and commercialize AI robots (\u201cBots\u201d) (including Optimus). We intend to leverage our current operations, in which we design, develop, manufacture, sell and lease high-performance fully electric vehicles and energy generation and storage systems that increasingly deliver AI-related and enhanced ",
+    "verified": true,
+    "note": "Verified via automated span-intactness check (reference_context confirmed verbatim in stored chunk).",
+    "base_id": "tsla_narr_35"
+  }
+]

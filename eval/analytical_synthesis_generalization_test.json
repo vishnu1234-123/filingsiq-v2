@@ -1,0 +1,100 @@
+[
+    {
+      "id": "cat_analytical_gen1",
+      "company": "cat",
+      "type": "analytical_synthesis",
+      "question": "How does Caterpillar connect its employee-facing cybersecurity awareness program with its board-level oversight of cybersecurity risk?",
+      "answer": "Caterpillar's board oversees cybersecurity as part of its broader enterprise risk management program, with the Audit Committee specifically evaluating the company's information security program and receiving regular updates from the Chief Information Officer. This board-level oversight sits above an operational cybersecurity awareness program that trains employees directly -- mandatory training on phishing, password security, and related topics, reinforced by regular phishing simulations for employees and contractors. The filing frames these as connected layers of the same governance structure: the board provides oversight and receives reporting, while the awareness program is one of the concrete measures that oversight is meant to ensure exists.",
+      "reference_facts": [],
+      "reference_narrative": [
+        "We have implemented a cybersecurity awareness program which covers topics such as phishing, social networking safety, password security, mobile device usage and potential risks associated with emerging technologies. We have mandatory training in the areas of cybersecurity, privacy, and confidential information handling. We also conduct regular phishing training and simulations for our employees and contractors.",
+        "Caterpillar's board has oversight for risk management with a focus on the most significant risks facing the Company, including strategic, operational, financial and legal compliance risks. The board's risk oversight process builds upon management's risk assessment and mitigation processes, which include an enterprise risk management program of which our cybersecurity processes are an integral component."
+      ],
+      "verified": true,
+      "note": "Generalization test -- CAT not in the original 6-row analytical_synthesis set. Grounded in cat_narr_29/cat_narr_30's verbatim reference_context."
+    },
+    {
+      "id": "met_analytical_gen1",
+      "company": "met",
+      "type": "analytical_synthesis",
+      "question": "How does MetLife's distribution strategy in its EMEA operations compare to its distribution strategy in Asia?",
+      "answer": "In Asia, MetLife's distribution strategy centers heavily on face-to-face channels -- career and general agency -- particularly in Japan, its largest Asia operation, with markets outside Japan using a combination of career and general agencies, bancassurance, independent brokers, and an employee sales force for group products. In EMEA, the filing describes a similarly multi-channel approach but organized differently: captive and independent agency, independent brokerage, bancassurance, corporate solutions, and direct-to-consumer channels, with a strategic split between playing a 'niche' role in more mature Western European markets and pursuing a stronger multi-channel presence in emerging markets like the Gulf region, Turkey, and Central/Eastern Europe. Both regions rely on multiple channel types tailored to market maturity, but EMEA's strategy is explicitly framed around a mature-vs-emerging-market split, a framing not used in the Asia description.",
+      "reference_facts": [],
+      "reference_narrative": [
+        "Asia Our Asia operations are geographically diverse encompassing both developed and emerging markets. We operate in nine jurisdictions throughout Asia, with our largest operation in Japan. We market our products and services through a range of proprietary and third-party distribution channels. In Japan, our face-to-face channels, including both career and general agency, continue to be critical to our overall distribution strategy.",
+        "EMEA We operate across EMEA in both developed (Western Europe) and emerging (Central and Eastern Europe, Middle East and Africa) markets. Our largest operations are in the Gulf region, the U.K., Turkey and France. In more mature markets, we focus our strategy on our preferred market segments to play a 'niche' role. We also have a strong market presence in emerging markets, leveraging a multi-channel distribution strategy. Our businesses in EMEA use captive and independent agency, independent brokerage, bancassurance, corporate solutions and direct-to-consumer channels."
+      ],
+      "verified": true,
+      "note": "Generalization test -- new angle on met_narr_31/met_narr_32, asking for direct comparison rather than description of either alone."
+    },
+    {
+      "id": "ms_analytical_gen1",
+      "company": "ms",
+      "type": "analytical_synthesis",
+      "question": "How does Morgan Stanley connect its ability to access capital with its broader competitive position?",
+      "answer": "Morgan Stanley's filing frames capital access as one of several factors underlying its competitive position, alongside reputation, client experience, investment performance, and talent retention. It specifically ties capital access to competitiveness in capital-intensive businesses -- underwriting, sales, financing, and market-making within Institutional Securities -- noting that the ability to access capital at competitive rates (itself a function of credit spreads and ratings) determines how efficiently the firm can commit and deploy capital in these businesses, which in turn affects its ability to meet client demand for loans and lending commitments tied to investment banking activity.",
+      "reference_facts": [],
+      "reference_narrative": [
+        "All aspects of our businesses are highly competitive, and we expect them to remain so. We compete in the U.S. and globally for clients, market share and human talent. Our competitive position depends on a number of factors, including our reputation.",
+        "Our ability to access capital at competitive rates (which is generally impacted by, among other things, our credit spreads and ratings) and to commit and deploy capital efficiently, particularly in our more capital-intensive businesses within our Institutional Securities business segment, including underwriting and sales, financing and market-making activities, also affects our competitive position. We expect clients to continue to request that we provide loans or lending commitments in connection with these activities."
+      ],
+      "verified": true,
+      "note": "Generalization test -- new angle on ms_narr_33/ms_narr_34, asking the model to connect two facts rather than restate either."
+    },
+    {
+      "id": "tsla_analytical_gen1",
+      "company": "tsla",
+      "type": "analytical_synthesis",
+      "question": "How does Tesla's energy generation and storage segment relate to grid efficiency, according to the filing?",
+      "answer": "Tesla's energy generation and storage segment -- one of its two reportable segments alongside automotive -- includes products like Powerwall and Megapack. The filing connects these specifically to grid efficiency: Megapack is described as helping increase the utilization of existing generation and transmission capacity, which the filing frames as increasingly important as AI infrastructure drives rapid load growth on the grid.",
+      "reference_facts": [],
+      "reference_narrative": [
+        "We are focused on bringing artificial intelligence ('AI') into the real world... we design, develop, manufacture, sell and lease high-performance fully electric vehicles and energy generation and storage systems.",
+        "Powerwall and Megapack are our lithium-ion battery energy storage products. Megapack is an energy storage solution for commercial, industrial, utility and energy generation customers... As AI infrastructure drives rapid load growth, Megapack helps increase the utilization of existing generation and transmission capacity."
+      ],
+      "verified": true,
+      "note": "Generalization test -- new angle on tsla_narr_35/tsla_narr_36, asking for the causal connection to grid efficiency specifically."
+    },
+    {
+      "id": "aapl_analytical_gen1",
+      "company": "aapl",
+      "type": "analytical_synthesis",
+      "question": "How does Apple's reliance on limited-source components relate to its ability to compete on product innovation?",
+      "answer": "Apple's filing describes a tension: the company's ability to compete depends heavily on continually introducing innovative new products, which requires custom components not commonly used by competitors -- but new products relying on these custom components are often available from only one source initially, creating capacity constraints until suppliers can scale up. The filing frames single/limited-source component dependency as a direct risk to the same innovation-driven competitive strategy it enables, since supply disruptions to those custom components could directly limit Apple's ability to deliver on innovative new product introductions.",
+      "reference_facts": [],
+      "reference_narrative": [
+        "Although most components essential to the Company's business are generally available from multiple sources, certain components are currently obtained from single or limited sources.",
+        "The Company's ability to compete successfully depends heavily on ensuring the continuing and timely introduction of innovative new products, services and technologies to the marketplace."
+      ],
+      "verified": true,
+      "note": "Generalization test -- new angle combining aapl_narr_21/aapl_narr_22, asking for the connection between supply risk and innovation strategy rather than either alone."
+    },
+    {
+      "id": "xom_analytical_gen1",
+      "company": "xom",
+      "type": "analytical_synthesis",
+      "question": "How does ExxonMobil's filing connect broad economic conditions with supply-side factors affecting its commodity prices?",
+      "answer": "ExxonMobil's filing treats these as two distinct but related forces on commodity prices. Broad economic conditions -- economic downturns, recessions, or periods of low growth -- are described as having a direct adverse impact on results, since energy and petrochemical demand is closely tied to overall economic activity and prosperity. Separately, supply-side factors -- new oil and gas sources, enhanced recovery technology, OPEC/OPEC+ production quotas, and refining capacity changes -- affect prices independently of demand-side economic conditions, by shifting the supply curve itself. The filing does not claim these two forces are the same, but frames them as parallel channels that both feed into the same underlying commodity price and margin volatility.",
+      "reference_facts": [],
+      "reference_narrative": [
+        "The demand for energy and petrochemicals is generally linked closely with broad-based economic activities and levels of prosperity. The occurrence of economic downturns, recessions or other periods of low or negative economic growth will typically have a direct adverse impact on our results.",
+        "Commodity prices and margins also vary depending on a number of factors affecting supply. For example, increased supply from the development of new or previously inaccessible oil and gas supply sources and technologies to enhance recovery from existing sources tends to reduce commodity prices to the extent such supply increases are not offset by commensurate growth in demand."
+      ],
+      "verified": true,
+      "note": "Generalization test -- new angle on xom_narr_23/xom_narr_24, explicitly asking whether/how two distinct risk factors relate rather than describing either alone."
+    },
+    {
+      "id": "pfe_analytical_gen1",
+      "company": "pfe",
+      "type": "analytical_synthesis",
+      "question": "How does Pfizer's regional licensing structure for Braftovi and Mektovi reflect its broader competitive strategy in biopharmaceuticals?",
+      "answer": "Pfizer holds exclusive commercialization rights to Braftovi and Mektovi only in the U.S., Canada, Latin America, the Middle East, and Africa, while licensing the products to different partners elsewhere -- Ono in Japan and South Korea, Medison Pharma in Israel, and Pierre Fabre in the rest of Europe and Asia -- collecting royalties from those partners rather than commercializing directly everywhere. This regional-partnership structure is consistent with the filing's broader description of Pfizer's competitive strategy, which emphasizes collaboration and partnership (working with other companies to expand patient access) alongside direct R&D investment, rather than pursuing sole global commercialization of every product itself.",
+      "reference_facts": [],
+      "reference_narrative": [
+        "Pfizer has exclusive rights to Braftovi and Mektovi in the U.S., Canada, Latin America, the Middle East and Africa. Ono has exclusive rights to commercialize the product in Japan and South Korea, Medison Pharma Ltd. has exclusive rights to commercialize the product in Israel and Pierre Fabre has exclusive rights to commercialize the product in all other countries, including Europe and Asia (excluding Japan and South Korea). Pfizer receives royalties from Pierre Fabre and Ono on sales of Braftovi and Mektovi.",
+        "Pfizer emphasizes innovation through significant investments in research and development (R&D)... The company collaborates with patients, physicians, and payors to support and expand patient access to healthcare, including strategic guidance and end-to-end R&D services to innovative biotech companies."
+      ],
+      "verified": true,
+      "note": "Generalization test -- new angle combining pfe_narr_25/pfe_narr_26, asking whether the licensing structure reflects the stated competitive strategy."
+    }
+  ]
