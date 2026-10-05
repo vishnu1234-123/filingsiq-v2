@@ -1,0 +1,63 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progess: true
+
+permissions: 
+  contents: read
+
+jobs: 
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      OPENAI_API_KEY: sk-dummy-for-ci
+      OTEL_QUIET: "true"
+    steps:
+      - uses: actions/checkout@v4
+
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      
+      - name: Install CPU-only torch
+        run: pip install torch==2.12.1 --index-url https://download.pytorch.org/whl/cpu
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      
+      - name: Cache embedding model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-all-mpnet-base-v2
+
+      - name: Run tests
+        run: python -m pytest tests/ --ignore=tests/test_xom_queries.py -v
+
+docker-build:
+  runs-on: ubuntu-latest
+  timeout-minutes: 30
+  steps:
+    - uses: actions/checkout@v4
+
+    - uses: docker/setup-buildx-action@v3
+
+    - name: Build image
+      uses: docker/build-push-action@v6
+      with:
+        context: .
+        push: false
+        cache-from: type=gha
+        cache-to: type=gha,mode=max
